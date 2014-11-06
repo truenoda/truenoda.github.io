@@ -71,6 +71,7 @@ a:focus {
 ::-moz-selection  {
 	color: #fff;
 	text-shadow:none;
+	font-family: "楷体","楷体_GB2312";
 	background:{{ site.colors.secondary }};
 }
 ::selection {
@@ -226,13 +227,6 @@ a:focus {
 }
 
 #headerwrap .img-responsive {
-    -webkit-transition: 0.4s;
-    -webkit-transition: -webkit-transform 0.4s ease-out;
-    transition: transform 0.4s ease-out;
-    -moz-transition: -moz-transform 0.4s ease-out;
-    transform: rotateZ(360deg);
-    -webkit-transform: rotateZ(360deg);
-    -moz-transform: rotateZ(360deg);
 	margin: 0 auto;
 }
 
