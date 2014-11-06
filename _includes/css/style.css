@@ -71,7 +71,6 @@ a:focus {
 ::-moz-selection  {
 	color: #fff;
 	text-shadow:none;
-	font-family: "楷体","楷体_GB2312";
 	background:{{ site.colors.secondary }};
 }
 ::selection {
@@ -223,7 +222,8 @@ a:focus {
 
 #headerwrap h1 {
 	color: white;
-	margin-bottom: 25px;
+	font-family: "楷体";
+	margin-bottom: 35px;
 }
 
 #headerwrap .img-responsive {
