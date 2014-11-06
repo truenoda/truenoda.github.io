@@ -71,12 +71,12 @@ a:focus {
 ::-moz-selection  {
 	color: #fff;
 	text-shadow:none;
-	background:{{ site.colors.secondary }};
+	background-color: transparent;
 }
 ::selection {
 	color: #fff;
 	text-shadow:none;
-	{background-color: transparent};
+	background:{{ site.colors.secondary }};
 }
 
 .centered {
