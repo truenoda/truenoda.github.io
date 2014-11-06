@@ -22,10 +22,10 @@
 	} 
 
 body { 
-	background: #25B4F0; 
+	background: #ffffff; 
 	margin: 0; 
 	height: 100%; 
-	color: {{ site.colors.secondary }};
+	color: #25B4F0;
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
 	}
