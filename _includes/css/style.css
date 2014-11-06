@@ -102,7 +102,7 @@ a:focus {
 }
 
 .navbar-default .navbar-nav > li > a {
-	color: transparent;
+	color: white;
 	font-weight: 700;
 	font-size: 12px;
 }
