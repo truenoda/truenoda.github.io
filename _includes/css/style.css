@@ -221,11 +221,21 @@ a:focus {
 	font-size: 16px;
 }
 
+h1[data-text] {
+  position: relative;
+}
+
 #headerwrap h1 {
 	color: white;
 	font-family: "STHeiti Light","楷体";
 	font-size: 70px;
 	margin-bottom: 40px;
+	content: attr(data-text);
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	-webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0)), color-stop(50%, rgba(0,0,0,1)), to(rgba(0,0,0,0)));
 }
 
 #headerwrap .img-responsive {
