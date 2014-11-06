@@ -220,20 +220,6 @@ a:focus {
 	font-weight: 400;
 	font-size: 16px;
 }
-h3，h5[data-text] {
-	position: relative;
-  	color: white;
-	font-weight: 400;
-	font-size: 16px;
-}
-h3，h5[data-text]::after {
-  content: attr(data-text);
-  z-index: 10;
-  color: #e3e3e3;
-  position: absolute;
-  top: 0;
-  left: 0;
-  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0)), color-stop(50%, rgba(0,0,0,1)), to(rgba(0,0,0,0)));
   
 #headerwrap h1 {
 	color: white;
