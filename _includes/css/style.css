@@ -226,17 +226,13 @@ a:focus {
 }
 
 #headerwrap .img-responsive {
-	img{
     -webkit-transition: 0.4s;
     -webkit-transition: -webkit-transform 0.4s ease-out;
     transition: transform 0.4s ease-out;
     -moz-transition: -moz-transform 0.4s ease-out;
-	}	
-	img:hover{
     transform: rotateZ(360deg);
     -webkit-transform: rotateZ(360deg);
     -moz-transform: rotateZ(360deg);
-	}
 	margin: 0 auto;
 }
 
