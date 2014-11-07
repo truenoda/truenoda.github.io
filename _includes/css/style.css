@@ -354,6 +354,8 @@ a:focus {
 }
 #cwrap h4 {
 	color: {{ site.colors.footer_heading }};
+	margin-left: auto; 
+	margin-right: auto;
 }
 #cwrap i {
 	font-size: 30px;
