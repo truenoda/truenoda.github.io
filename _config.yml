@@ -25,6 +25,8 @@ colors:  #in hex code if not noted else
 
 # Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
 social:
+  - title:
+  - title:
   - title: weibo
     url: http://weibo.com/1882819105   
   - title: twitter
