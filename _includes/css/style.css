@@ -340,7 +340,7 @@ a:focus {
 
 /* clients logo */
 #cwrap {
-	background: #f7f7f7;
+	background:url(http://liubai.qiniudn.com/client-bg.jpg);
 	margin-top: 0px;
 	padding-top: 80px;
 	padding-bottom: 100px;
@@ -354,7 +354,7 @@ a:focus {
 #footerwrap {
 	padding-top: 60px;
 	padding-bottom: 60px;
-	background: transparent;
+	background: transparent;      /*这里是底下部分透明*/
 }
 
 #footerwrap p {
