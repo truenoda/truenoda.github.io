@@ -342,38 +342,29 @@ a:focus {
 #cwrap {
 	background:url(http://liubai.qiniudn.com/client-bg.jpg);
 	margin-top: 0px;
-	padding-top: 80px;
+	padding-top: 0px;
 	padding-bottom: 100px;
 }
 
 #cwrap h3 {
 	margin-bottom: 60px;
 }
-
-/* Footer */
-#footerwrap {
-	padding-top: 60px;
-	padding-bottom: 60px;
-	background: transparent;      /*这里是底下部分透明*/
-}
-
-#footerwrap p {
+#crap p {
 	color: {{ site.colors.footer_content }};
 }
-
-#footerwrap h4 {
+#cwrap h4 {
 	color: {{ site.colors.footer_heading }};
 }
-
-#footerwrap i {
+#cwrap i {
 	font-size: 30px;
 	color: {{ site.colors.footer_content }};
 	padding-right: 25px;
 }
-
-#footerwrap i:hover {
+#cwrap i:hover {
 	color: {{ site.colors.primary }}
 }
+/* Footer */
+
 
 /*	################################################################
 	PAGE CONFIGURATIONS
