@@ -42,7 +42,7 @@ p {
 	font-weight: 400;
 	font-size: 14px; 
 	line-height: 24px;
-	color: transparent; 
+	color: {{ site.colors.secondary }};    /*more info字体*/
 	margin-top: 10px; 
 }
 
@@ -76,7 +76,7 @@ a:focus {
 ::selection {
 	color: #fff;
 	text-shadow:none;
-	background:{{ site.colors.secondary }};
+	background: transparent;
 }
 
 .centered {
