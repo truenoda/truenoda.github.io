@@ -354,6 +354,7 @@ a:focus {
 }
 #cwrap h4 {
 	color: {{ site.colors.footer_heading }};
+	margin-top:10px;
 	margin-left: auto; 
 	margin-right: auto;
 }
