@@ -351,6 +351,7 @@ a:focus {
 }
 #crap p {
 	color: {{ site.colors.footer_content }};
+	margin-top:50px;
 }
 #cwrap h4 {
 	color: {{ site.colors.footer_heading }};
