@@ -25,7 +25,7 @@ body {
 	background: #ffffff; 
 	margin: 0; 
 	height: 100%; 
-	color: {{ site.colors.secondary }};
+	color: transparent;
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
 	}
@@ -133,7 +133,7 @@ a:focus {
 
 .btn-theme {
   color: #fff;
-  background-color: transition;
+  background-color: {{ site.colors.secondary }}; /*这里是按钮的默认是浅蓝色*/
   border-color: {{ site.colors.secondary }};
   margin: 4px;
 }
