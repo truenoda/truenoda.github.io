@@ -25,6 +25,7 @@ colors:  #in hex code if not noted else
 
 # Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
 social:
+  - title: gmail	
   - title: weibo
     url: http://weibo.com/1882819105   
   - title: twitter
@@ -33,7 +34,7 @@ social:
     url: https://www.flickr.com/photos/108593526@N08/
   - title: facebook
     url: http://www.zhihu.com/people/liu-bai-27-78
-  - title: gmail
+  - title: mail
     url: tracyliubai@gmail.com
   
     
