@@ -76,7 +76,7 @@ a:focus {
 ::selection {
 	color: #fff;
 	text-shadow:none;
-	background: transparent;
+	background:{{ site.colors.secondary }};
 }
 
 .centered {
@@ -354,7 +354,7 @@ a:focus {
 #footerwrap {
 	padding-top: 60px;
 	padding-bottom: 60px;
-	background: {{ site.colors.secondary }};
+	background: transparent;
 }
 
 #footerwrap p {
