@@ -296,7 +296,7 @@ a:focus {
 /* Testimonials Wrap */
 #twrapback {
     background-color: {{ site.colors.primary }};
-    background-color: transition;
+    background-color:rgba({{ site.colors.primary_rgb }},.9);
     position: absolute;
     top: 0;
     left: 0;
