@@ -44,14 +44,8 @@ address:
   - lines: 
     - 
 email: truenotrueno@sina.com
-
-
-
-### GENERAL DATA FOR VARIOUS LOCATIONS ###
-    
+### GENERAL DATA FOR VARIOUS LOCATIONS ###   
 # Members information. Shown on About page.
-
-
 # Clients information. Shown on Home and About pages.
 clients:
   - name: dribbble
