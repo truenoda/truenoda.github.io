@@ -250,7 +250,9 @@ a:focus {
 	font-size: 60px;
 	padding: 15px;
 }
-
+#service .img-responsive {                        /* 显示 图片*/  
+	margin: 0 auto;
+}
 /* Portfolio Wrap */
 #portfoliowrap {
 	background:url(http://liubai.qiniudn.com/bg2.png);
