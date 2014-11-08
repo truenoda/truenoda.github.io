@@ -243,6 +243,7 @@ a:focus {
 
 #service i {
 	color: {{ site.colors.primary }};
+	margin-top: 80px;
 	font-size: 60px;
 	padding: 15px;
 }
