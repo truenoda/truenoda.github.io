@@ -359,7 +359,7 @@ a:focus {
 	color: {{ site.colors.footer_heading }};
 	font-family: "Lato",sans-serif;
 	text-shadow: none;
-	font-size: 15px;
+	font-size: 18px;
 	text-align: center;    /* 文字居中最有效的 */
 	margin-top: 75px;
 	margin-left: auto; 
