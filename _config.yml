@@ -57,13 +57,13 @@ clients:
   - name: VimeoPro
     img: client04.png
     
-# Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
+# Short text about your company. Shown in footer on every page and also separately on Home and Contact page.该来的我不推 该还的还该给的我给 岁月 你别催 走远的我不追 我不过是想弄清原委
 
 
 # Testimonial content. Shown on Home and About page. 
 testimonial:
-    message: "该来的我不推 该还的还该给的我给 岁月 你别催 走远的我不追 我不过是想弄清原委"
-    author: 流白
+    message: "sss"
+    author: ass
     position:  
 	
 	
