@@ -368,10 +368,10 @@ a:focus {
 #twrap p {
 	font-weight: 200;
 	color: white;
-	font-size: 25px;
+	font-size: 18px;
 	line-height: 40px;
 	text-align: center;    /* 文字居中最有效的 */
-	margin-top: 75px;
+	margin-top: 7px;
 	margin-left: auto; 
 	margin-right: auto;
 }
