@@ -33,6 +33,8 @@ social:
     url: https://www.flickr.com/photos/108593526@N08/
   - title: facebook
     url: http://www.zhihu.com/people/liu-bai-27-78
+  - title envelope
+	url: mailto:mytharcher@gmail.com
     
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 address:
