@@ -243,8 +243,8 @@ a:focus {
 
 #service i {
 	color: #000;
-	margin-top: 200px;
-	font-size: 60px;
+	margin-top: 150px;
+	font-size: 110px;
 	padding: 15px;
 }
 
@@ -261,8 +261,8 @@ a:focus {
 }
 
 .portfolio {
-	padding:0 !important;
-	margin:0 !important;
+	padding-left: 80px;
+	padding-right: 80px;
 	display:block;
 }
 
