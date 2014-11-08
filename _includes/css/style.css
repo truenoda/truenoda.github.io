@@ -351,6 +351,7 @@ a:focus {
 	font-size: 15px;
 	text-align: center;    /* 文字居中最有效的 */
 	margin-bottom:38px;
+	padding-bottom:80px
 	margin-left: auto; 
 	margin-right: auto;
 }
