@@ -233,6 +233,9 @@ a:focus {
 
 /* Services Wrap */
 #service {
+	background:url(http://liubai.qiniudn.com/bg2.png);
+	background-position:center;
+	background-repeat:no-repeat; 
 	margin-top: 100px;
 	margin-bottom: 80px;
 }
