@@ -358,8 +358,8 @@ a:focus {
 	margin-right: auto;
 }
 #twrap p {
-	color: white;
-	font-size: 15px;
+	color: transparent;
+	font-size: 65px;
 	line-height: 30px;
 }
 
