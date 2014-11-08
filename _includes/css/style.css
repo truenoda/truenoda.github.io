@@ -371,7 +371,7 @@ a:focus {
 #twrap i {
 	font-size: 30px;
 	color: {{ site.colors.footer_content }};
-	padding-right: 25px;
+	padding-right: 2px;
 }
 #twrap i:hover {
 	color: {{ site.colors.primary }}
