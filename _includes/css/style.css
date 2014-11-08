@@ -32,7 +32,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Raleway', sans-serif;
-	font-weight: 200;
+	font-weight: 700;
 }
 
 p { 
@@ -42,7 +42,7 @@ p {
 	font-weight: 400;
 	font-size: 14px; 
 	line-height: 24px;
-	color: {{ site.colors.secondary }};    /*more info字体*/
+	color: {{ site.colors.secondary }};   /*more info字体*/
 	margin-top: 10px; 
 }
 
@@ -71,7 +71,7 @@ a:focus {
 ::-moz-selection  {
 	color: #fff;
 	text-shadow:none;
-	background-color: transparent;
+	background:{{ site.colors.secondary }};
 }
 ::selection {
 	color: #fff;
@@ -94,7 +94,7 @@ a:focus {
 
 .navbar-brand {
 	font-family: 'Raleway', sans-serif;
-	font-weight: 600;
+	font-weight: 900;   /*科技流字体粗细*/
 }
 
 .navbar-header .navbar-brand {
@@ -102,8 +102,8 @@ a:focus {
 }
 
 .navbar-default .navbar-nav > li > a {
-	color: white;
-	font-weight: 450;
+	color: #00b3fe;
+	font-weight: 700;
 	font-size: 12px;
 }
 
@@ -133,7 +133,7 @@ a:focus {
 
 .btn-theme {
   color: #fff;
-  background-color: {{ site.colors.secondary }}; /*这里是按钮的默认是浅蓝色*/
+  background-color: {{ site.colors.secondary }};/*这里是按钮的默认是浅蓝色*/
   border-color: {{ site.colors.secondary }};
   margin: 4px;
 }
@@ -203,7 +203,7 @@ a:focus {
 }
 /*	################################################################
 	SITE WRAPS
-################################################################ */
+################################################################# */
 
 #headerwrap {
 	background:url(http://liubai.qiniudn.com/intro-bg.jpg);
@@ -218,9 +218,8 @@ a:focus {
 #headerwrap h3, h5 {
 	color: white;
 	font-weight: 400;
-	font-size: 18px;
 }
-  
+
 #headerwrap h1 {
 	color: white;
 	font-family: "STHeiti Light","楷体";
@@ -232,8 +231,7 @@ a:focus {
 	margin: 0 auto;
 }
 
-
-/* Services Wrap   http://liubai.qiniudn.com/bg2.png */
+/* Services Wrap */
 #service {
 	margin-top: 100px;
 	margin-bottom: 80px;
@@ -294,6 +292,7 @@ a:focus {
 }
 
 /* Testimonials Wrap */
+
 #twrapback {
     background-color: transparent;
     position: absolute;
@@ -347,8 +346,8 @@ a:focus {
 	margin-right: auto;
 }
 #twrap p {
-	color: transparent;
-	font-size: 65px;
+	color: white;
+	font-size: 25px;
 	line-height: 40px;
 }
 
@@ -368,10 +367,7 @@ a:focus {
 	color: {{ site.colors.primary }}
 }
 
-/* clients logo */
-
 /* Footer */
-
 
 /*	################################################################
 	PAGE CONFIGURATIONS
