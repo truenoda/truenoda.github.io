@@ -235,29 +235,31 @@ a:focus {
 
 /* Services Wrap   http://liubai.qiniudn.com/bg2.png */
 #service {
-	background:url(http://liubai.qiniudn.com/bg2.png);
-	background-position:center;
-	background-repeat:no-repeat; 
+	background: url(http://liubai.qiniudn.com/test1.jpg) no-repeat center top;
+    position: relative;
+	background-attachment: relative;
+	background-position: center center;
 	margin-top: 100px;
 	margin-bottom: 80px;
+	
+	-webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 #service i {
-	background:url(http://liubai.qiniudn.com/bg2.png);
-	background-position:center;
-	background-repeat:no-repeat; 
 	color: {{ site.colors.primary }};
 	font-size: 60px;
 	padding: 15px;
 }
-#service .img-responsive {                        /* 显示 图片*/  
-	margin: 0 auto;
-}
 /* Portfolio Wrap */
 #portfoliowrap {
-	background:url(http://liubai.qiniudn.com/bg2.png);
-	background-position:center;
-	background-repeat:no-repeat; 
 	padding-top: 60px;
 	margin-bottom: 60px;
 	display: block;

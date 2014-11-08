@@ -100,7 +100,7 @@ clients:
     img: client04.png
     
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "        Copyright@2014 "
+
 
 # Testimonial content. Shown on Home and About page. 
 testimonial:
