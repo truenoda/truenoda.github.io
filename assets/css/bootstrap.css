@@ -277,7 +277,7 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
-  background-color: #fff;
+  background-color: transparent;
 }
 input,
 button,
@@ -325,7 +325,7 @@ img {
   height: auto;
   padding: 4px;
   line-height: 1.42857143;
-  background-color: #fff;
+  background-color: transparent;
   border: 1px solid #ddd;
   border-radius: 4px;
   -webkit-transition: all .2s ease-in-out;
@@ -1438,7 +1438,7 @@ th {
   border-top: 2px solid #ddd;
 }
 .table .table {
-  background-color: #fff;
+  background-color: transparent;
 }
 .table-condensed > thead > tr > th,
 .table-condensed > tbody > tr > th,
@@ -1696,7 +1696,7 @@ output {
   font-size: 14px;
   line-height: 1.42857143;
   color: #555;
-  background-color: #fff;
+  background-color: transparent;
   background-image: none;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -2040,7 +2040,7 @@ fieldset[disabled] .btn {
 }
 .btn-default {
   color: #333;
-  background-color: #fff;
+  background-color: transparent;
   border-color: #ccc;
 }
 .btn-default:hover,
@@ -2072,7 +2072,7 @@ fieldset[disabled] .btn-default:active,
 .btn-default.disabled.active,
 .btn-default[disabled].active,
 fieldset[disabled] .btn-default.active {
-  background-color: #fff;
+  background-color: transparent;
   border-color: #ccc;
 }
 .btn-default .badge {
@@ -2118,7 +2118,7 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-primary .badge {
   color: #428bca;
-  background-color: #fff;
+  background-color: transparent;
 }
 .btn-success {
   color: #fff;
@@ -2159,7 +2159,7 @@ fieldset[disabled] .btn-success.active {
 }
 .btn-success .badge {
   color: #5cb85c;
-  background-color: #fff;
+  background-color: transparent;
 }
 .btn-info {
   color: #fff;
@@ -2200,7 +2200,7 @@ fieldset[disabled] .btn-info.active {
 }
 .btn-info .badge {
   color: #5bc0de;
-  background-color: #fff;
+  background-color: transparent;
 }
 .btn-warning {
   color: #fff;
@@ -2241,7 +2241,7 @@ fieldset[disabled] .btn-warning.active {
 }
 .btn-warning .badge {
   color: #f0ad4e;
-  background-color: #fff;
+  background-color: transparent;
 }
 .btn-danger {
   color: #fff;
@@ -2282,7 +2282,7 @@ fieldset[disabled] .btn-danger.active {
 }
 .btn-danger .badge {
   color: #d9534f;
-  background-color: #fff;
+  background-color: transparent;
 }
 .btn-link {
   font-weight: normal;
@@ -3019,7 +3019,7 @@ input[type="button"].btn-block {
   margin: 2px 0 0;
   font-size: 14px;
   list-style: none;
-  background-color: #fff;
+  background-color: transparent;
   background-clip: padding-box;
   border: 1px solid #ccc;
   border: 1px solid rgba(0, 0, 0, .15);
@@ -3512,7 +3512,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-tabs > li.active > a:focus {
   color: #555;
   cursor: default;
-  background-color: #fff;
+  background-color: transparent;
   border: 1px solid #ddd;
   border-bottom-color: transparent;
 }
@@ -4063,7 +4063,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: #333;
 }
 .navbar-inverse .navbar-toggle .icon-bar {
-  background-color: #fff;
+  background-color: transparent;
 }
 .navbar-inverse .navbar-collapse,
 .navbar-inverse .navbar-form {
@@ -4145,7 +4145,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   line-height: 1.42857143;
   color: #428bca;
   text-decoration: none;
-  background-color: #fff;
+  background-color: transparent;
   border: 1px solid #ddd;
 }
 .pagination > li:first-child > a,
@@ -4187,7 +4187,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .pagination > .disabled > a:focus {
   color: #999;
   cursor: not-allowed;
-  background-color: #fff;
+  background-color: transparent;
   border-color: #ddd;
 }
 .pagination-lg > li > a,
@@ -4233,7 +4233,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .pager li > span {
   display: inline-block;
   padding: 5px 14px;
-  background-color: #fff;
+  background-color: transparent;
   border: 1px solid #ddd;
   border-radius: 15px;
 }
@@ -4256,7 +4256,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .pager .disabled > span {
   color: #999;
   cursor: not-allowed;
-  background-color: #fff;
+  background-color: transparent;
 }
 .label {
   display: inline;
@@ -4359,7 +4359,7 @@ a.badge:focus {
 a.list-group-item.active > .badge,
 .nav-pills > .active > a > .badge {
   color: #428bca;
-  background-color: #fff;
+  background-color: transparent;
 }
 .nav-pills > li > a > .badge {
   margin-left: 3px;
@@ -4404,7 +4404,7 @@ a.list-group-item.active > .badge,
   padding: 4px;
   margin-bottom: 20px;
   line-height: 1.42857143;
-  background-color: #fff;
+  background-color: transparent;
   border: 1px solid #ddd;
   border-radius: 4px;
   -webkit-transition: all .2s ease-in-out;
@@ -4610,7 +4610,7 @@ a.thumbnail.active {
   display: block;
   padding: 10px 15px;
   margin-bottom: -1px;
-  background-color: #fff;
+  background-color: transparent;
   border: 1px solid #ddd;
 }
 .list-group-item:first-child {
@@ -4755,7 +4755,7 @@ a.list-group-item-danger.active:focus {
 }
 .panel {
   margin-bottom: 20px;
-  background-color: #fff;
+  background-color: transparent;
   border: 1px solid transparent;
   border-radius: 4px;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
@@ -5118,7 +5118,7 @@ button.close {
 }
 .modal-content {
   position: relative;
-  background-color: #fff;
+  background-color: transparent;
   background-clip: padding-box;
   border: 1px solid #999;
   border: 1px solid rgba(0, 0, 0, .2);
@@ -5302,7 +5302,7 @@ button.close {
   padding: 1px;
   text-align: left;
   white-space: normal;
-  background-color: #fff;
+  background-color: transparent;
   background-clip: padding-box;
   border: 1px solid #ccc;
   border: 1px solid rgba(0, 0, 0, .2);
@@ -5552,7 +5552,7 @@ button.close {
   width: 12px;
   height: 12px;
   margin: 0;
-  background-color: #fff;
+  background-color: transparent;
 }
 .carousel-caption {
   position: absolute;
