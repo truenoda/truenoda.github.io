@@ -38,15 +38,8 @@ permalink: /
     <div class="row">
         <div class="col-lg-4 col-lg-offset-1">
         </div>
-
         <div class="col-lg-3">
-            <h4>Frequently Asked</h4>
-            <div class="hline"></div>
-            {% for post in site.categories['question'] %} 
-                <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
-            {% endfor %}
-        </div>
-
+        </div>         <!--排版空的两个位置-->
         <div class="col-lg-3">
             <h4>Latest Posts</h4>
             <div class="hline"></div>
