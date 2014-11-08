@@ -215,7 +215,7 @@ a:focus {
 	text-align: center;
 }
 
-#headerwrap h5 {
+#headerwrap h3, h5 {
 	color: white;
 	font-weight: 400;
 	font-size: 18px;
