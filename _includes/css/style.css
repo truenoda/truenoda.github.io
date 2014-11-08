@@ -304,7 +304,7 @@ a:focus {
 }
 
 #twrap {
-    background: url(http://liubai.qiniudn.com/test.jpg) no-repeat center top;
+    background: url(http://liubai.qiniudn.com/test1.jpg) no-repeat center top;
     position: relative;
     margin-top: 0px;
 	padding-top:60px;
@@ -337,22 +337,14 @@ a:focus {
 	line-height: 30px;
 }
 
-/* clients logo */
-#cwrap {
-	background:url(http://liubai.qiniudn.com/client-bg.jpg);
-	margin-top: 0px;
-	padding-top: 0px;
-	padding-bottom: 100px;
-}
-
-#cwrap h3 {
+#twrap h3 {
 	margin-bottom: 60px;
 }
 #crap p {
 	color: {{ site.colors.footer_content }};
 	text-align: center;
 }
-#cwrap h4 {
+#twrap h4 {
 	color: {{ site.colors.footer_heading }};
 	font-family: "Lato",sans-serif;
 	text-shadow: none;
@@ -362,14 +354,17 @@ a:focus {
 	margin-left: auto; 
 	margin-right: auto;
 }
-#cwrap i {
+#twrap i {
 	font-size: 30px;
 	color: {{ site.colors.footer_content }};
 	padding-right: 25px;
 }
-#cwrap i:hover {
+#twrap i:hover {
 	color: {{ site.colors.primary }}
 }
+
+/* clients logo */
+
 /* Footer */
 
 
