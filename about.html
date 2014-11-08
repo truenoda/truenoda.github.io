@@ -1,9 +1,15 @@
----
-title: About
-permalink: /about/
----
-{% include wrap.html %}
+<!DOCTYPE html>
+<html>
+    <body>
+        {% include nav.html %}
 
-    {{ content }}
+            {{ content }}
+			
+        {% include js.html %}
+		{% include wrap.html %}
 
-{% include testimonial.html %}
+		{{ content }}
+
+		{% include testimonial.html %}	
+    </body>
+</html>
