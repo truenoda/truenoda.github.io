@@ -330,6 +330,11 @@ a:focus {
 	color: white;
 	margin-bottom: 0px;
 }
+
+#twrap h3 {
+	margin-bottom: 60px;
+	font-size: 25px;
+}
 #twrap h4 {
 	color: {{ site.colors.footer_heading }};
 	font-family: "Lato",sans-serif;
@@ -347,10 +352,7 @@ a:focus {
 	line-height: 30px;
 }
 
-#twrap h3 {
-	margin-bottom: 60px;
-	font-size: 25px;
-}
+
 #crap p {
 	color: {{ site.colors.footer_content }};
 	text-align: center;
