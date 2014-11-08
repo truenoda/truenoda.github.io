@@ -360,16 +360,20 @@ a:focus {
 	font-family: "Lato",sans-serif;
 	text-shadow: none;
 	font-size: 15px;
-	font-weight: 200;
 	text-align: center;    /* 文字居中最有效的 */
 	margin-top: 75px;
 	margin-left: auto; 
 	margin-right: auto;
 }
 #twrap p {
+	font-weight: 200;
 	color: white;
 	font-size: 25px;
 	line-height: 40px;
+	text-align: center;    /* 文字居中最有效的 */
+	margin-top: 75px;
+	margin-left: auto; 
+	margin-right: auto;
 }
 
 
