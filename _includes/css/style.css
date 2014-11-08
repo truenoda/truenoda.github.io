@@ -250,10 +250,15 @@ a:focus {
 
 /* Portfolio Wrap */
 #portfoliowrap {
+	background:url(http://liubai.qiniudn.com/port.jpg);
+	background-position:center;
+	background-repeat:no-repeat; 
+	min-height: 700px;
+	margin-top: 0px; /*
 	padding-top: 60px;
 	margin-bottom: 60px;
 	display: block;
-	text-align: center
+	text-align: center */
 }
 
 #portfoliowrap h3 {
