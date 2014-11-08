@@ -235,22 +235,8 @@ a:focus {
 
 /* Services Wrap   http://liubai.qiniudn.com/bg2.png */
 #service {
-	background: url(http://liubai.qiniudn.com/test1.jpg) no-repeat center top;
-    position: relative;
-	background-attachment: relative;
-	background-position: center center;
 	margin-top: 100px;
 	margin-bottom: 80px;
-	
-	-webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
 }
 
 #service i {
@@ -258,6 +244,7 @@ a:focus {
 	font-size: 60px;
 	padding: 15px;
 }
+
 /* Portfolio Wrap */
 #portfoliowrap {
 	padding-top: 60px;
