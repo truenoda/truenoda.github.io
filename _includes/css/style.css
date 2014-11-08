@@ -32,7 +32,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Raleway', sans-serif;
-	font-weight: 700;
+	font-weight: 400;
 }
 
 p { 
@@ -349,7 +349,6 @@ a:focus {
 	color: {{ site.colors.footer_heading }};
 	font-family: "Lato",sans-serif;
 	text-shadow: none;
-	font-weight: 400;
 	font-size: 15px;
 	text-align: center;    /* 文字居中最有效的 */
 	margin-bottom:60px;
@@ -359,7 +358,7 @@ a:focus {
 #twrap p {
 	color: transparent;
 	font-size: 65px;
-	line-height: 30px;
+	line-height: 40px;
 }
 
 
