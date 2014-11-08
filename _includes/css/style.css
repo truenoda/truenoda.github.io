@@ -243,6 +243,9 @@ a:focus {
 }
 
 #service i {
+	background:url(http://liubai.qiniudn.com/bg2.png);
+	background-position:center;
+	background-repeat:no-repeat; 
 	color: {{ site.colors.primary }};
 	font-size: 60px;
 	padding: 15px;
@@ -250,6 +253,9 @@ a:focus {
 
 /* Portfolio Wrap */
 #portfoliowrap {
+	background:url(http://liubai.qiniudn.com/bg2.png);
+	background-position:center;
+	background-repeat:no-repeat; 
 	padding-top: 60px;
 	margin-bottom: 60px;
 	display: block;
