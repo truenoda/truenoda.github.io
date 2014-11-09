@@ -320,6 +320,8 @@ fieldset[disabled] .btn-xl.active {
 	padding: 0px;
 	text-align: center;
 	font-size: 44px;
+	margin-bottom: 12px;
+	font-color: #000;
 }
 #service p { 
 	padding: 0; 
@@ -359,6 +361,7 @@ fieldset[disabled] .btn-xl.active {
 	padding: 0px;
 	text-align: center;
 	font-size: 44px;
+	margin-bottom: 12px;
 }
 
 .portfolio {
@@ -425,6 +428,8 @@ fieldset[disabled] .btn-xl.active {
 	padding: 0px;
 	text-align: center;
 	font-size: 44px;
+	margin-bottom: 12px;
+	font-color: #000;
 }
 #article p { 
 	padding: 0; 
