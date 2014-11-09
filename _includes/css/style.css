@@ -226,6 +226,9 @@ a:focus {
 	font-size: 70px;
 	margin-bottom: 40px;
 }
+#headerwrap p  {
+	padding-bottom: 10px;
+}
 
 #headerwrap .img-responsive {
 	margin: 0 auto;
