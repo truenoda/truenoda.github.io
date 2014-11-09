@@ -321,7 +321,7 @@ fieldset[disabled] .btn-xl.active {
 	text-align: center;
 	font-size: 44px;
 	margin-bottom: 12px;
-	font-color: #000;
+	color: #000;
 }
 #service p { 
 	padding: 0; 
@@ -429,7 +429,9 @@ fieldset[disabled] .btn-xl.active {
 	text-align: center;
 	font-size: 44px;
 	margin-bottom: 12px;
-	font-color: #000;
+	margin-bottom: 12px;
+	color: #000;
+	
 }
 #article p { 
 	padding: 0; 
