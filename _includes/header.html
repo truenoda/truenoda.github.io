@@ -36,10 +36,27 @@
 				</html>
                 <!-- <img src="{{ "http://liubai.qiniudn.com/logo.png" | prepend: site.baseurl }}" class="img-responsive"> -->
             </div>
-			<div>
-				<p href="#" class="fa fa-angle-down"><p>
+			<div id="pro" class="box">
+				<a href="#" class="fa fa-angle-down"><a>
 			</div>
         </div><!-- /row -->
     </div> <!-- /container -->
 	<div style="position:fixed;height:90px;width:100%;left:0;bottom:5px;z-index:999"><div class="footer-banner" style="width:728px; margin:0px auto"></div></div>           
 </div><!-- /headerwrap -->
+$(function(){
+	$(".box").click(function(){
+		$.scrollTo('#service',500);
+	});
+	$(".nav_news").click(function(){
+		$.scrollTo('#news',800);
+	});
+	$(".nav_ser").click(function(){
+		$.scrollTo('#ser',1000);
+	});
+	$(".nav_con").click(function(){
+		$.scrollTo('#con',1200);
+	});
+	$(".nav_job").click(function(){
+		$.scrollTo('#job',1500);
+	});
+});
