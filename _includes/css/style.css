@@ -363,7 +363,7 @@ fieldset[disabled] .btn-xl.active {
 	text-align: center;
 	font-size: 44px;
 	margin-bottom: 12px;
-	min-height: 56px;
+	min-height: 96px;
 }
 
 .portfolio {
@@ -432,7 +432,7 @@ fieldset[disabled] .btn-xl.active {
 	font-size: 44px;
 	margin-bottom: 12px;
 	color: #000;
-	
+	min-height: 56px;	
 }
 #article p { 
 	padding: 0; 
