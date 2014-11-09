@@ -3,14 +3,14 @@
     <div class="container centered">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-            <i class="fa fa-envelope"></i>
+			    <i><a href="mailto:tracyliubai@gmail.com" class="fa fa-envelope"></a></i> 
             <h4><br/>{{ site.testimonial.author }}</h4>
-            <p>{{ site.testimonial.position }}</p>
+            <h4>{{ site.testimonial.position }}</h4>
             </div>
 			<div class="col-lg-4">
             </div>
 			<div class="col-lg-4">
-                <h4>Copyright@2014   All rights reserved</h4>
+                <p>Copyright@2014   All rights reserved</p>
                 <p>
                     {% for network in site.social %}
                         <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-{{ network.title }}"></i></a>

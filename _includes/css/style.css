@@ -339,7 +339,7 @@ a:focus {
 	color: white;
 	margin-bottom: 0px;
 }
-#twrap a {                      /*相当于继承可以从其父定义更改*/
+#twrap a {                      /*相当于继承可以从其父定义更改   这是下面社交部分 结合一起了*/
     color:{{ site.colors.link }};
     padding: 7px;
 	margin: 0;
@@ -357,9 +357,9 @@ a:focus {
 #twrap h4 {
 	font-weight: 200;
 	color: {{ site.colors.footer_heading }};
-	font-family: "Lato",sans-serif;
+	font-family: "楷体";
 	text-shadow: none;
-	font-size: 18px;
+	font-size: 24px;
 	text-align: center;    /* 文字居中最有效的 */
 	margin-top: 75px;
 	margin-left: auto; 
@@ -377,7 +377,7 @@ a:focus {
 }
 
 
-#crap p {
+#crap p {                        /*社交按钮*/
 	padding-bottom: 25px;
 	color: {{ site.colors.footer_content }};
 	text-align: center;
