@@ -330,9 +330,9 @@ fieldset[disabled] .btn-xl.active {
 	margin-bottom: 12px; 
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
-	font-size: 18px; 
+	font-size: 14px; 
 	line-height: 24px;
-	color: #000;   /*more info字体*/
+	color: {{ site.colors.secondary }};   /*more info字体*/
 	margin-top: 10px; 
 }
 .btn:focus,
@@ -410,7 +410,7 @@ fieldset[disabled] .btn-xl.active {
 
 /* article Wrap ===================================================================*/
 #article {
-	background:url(http://liubai.qiniudn.com/shanshui.jpg);
+	background:url(http://liubai.qiniudn.com/shanshuibg.jpg);
 	background-position:center;
 	background-repeat:no-repeat; 
 	min-height: 700px;
