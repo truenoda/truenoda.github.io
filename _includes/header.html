@@ -1,3 +1,26 @@
+<head>
+<script type="text/javascript" src="http://libs.useso.com/js/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.scrollTo.js"></script>
+<script type="text/javascript">
+$(function(){
+	$(".box").click(function(){
+		$.scrollTo('#service',500);
+	});
+	$(".nav_news").click(function(){
+		$.scrollTo('#news',800);
+	});
+	$(".nav_ser").click(function(){
+		$.scrollTo('#ser',1000);
+	});
+	$(".nav_con").click(function(){
+		$.scrollTo('#con',1200);
+	});
+	$(".nav_job").click(function(){
+		$.scrollTo('#job',1500);
+	});
+});
+</script>
+</head>
 <div id="headerwrap">
     <div class="container">
         <div class="row">
@@ -38,25 +61,6 @@
             </div>
 			<div id="pro" class="box">
 				<a href="#" class="fa fa-angle-down"><a>
-					<script>
-					$(function(){
-						$(".box").click(function(){
-							$.scrollTo('#service',500);
-						});
-						$(".nav_news").click(function(){
-							$.scrollTo('#news',800);
-						});
-						$(".nav_ser").click(function(){
-							$.scrollTo('#ser',1000);
-						});
-						$(".nav_con").click(function(){
-							$.scrollTo('#con',1200);
-						});
-						$(".nav_job").click(function(){
-							$.scrollTo('#job',1500);
-						});
-					});
-					</script>
 			</div>
         </div><!-- /row -->
     </div> <!-- /container -->
