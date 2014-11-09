@@ -22,23 +22,10 @@ permalink: /
 
 {% include portfolio.html title="LATEST WORKS" limit=10 %}
 
-<div class="container mtb">
-    <div class="row">
-        <div class="col-lg-4 col-lg-offset-1">
-            <img src="http://liubai.qiniudn.com/shanshui.jpg">
-        </div>
-
-
-        <div class="col-lg-3">
-            <h4>Latest Posts</h4>
-            <div class="hline"></div>
-            {% for post in site.categories['blog'] limit:5 %} 
-                <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a></p>
-            {% endfor %} 
-        </div>
-
-    </div><! --/row -->
-</div><! --/container -->
-<div id="pro" class="box">
-	<a href="#twrap" class="page-scroll btn btn-xl">Tell Me More</a>
-</div>
+<div id="article">
+    <div class="container">
+    </div><! --/container -->
+	<div id="pro" class="box">
+		<a href="#portfoliowrap" class="page-scroll btn btn-xl">Tell Me More</a>                <!--service跳到portfoliowrap   然后是container mtb 然后twrap-->
+	</div>
+</div><! --/article -->
