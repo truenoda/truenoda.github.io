@@ -330,9 +330,9 @@ fieldset[disabled] .btn-xl.active {
 	margin-bottom: 12px; 
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
-	font-size: 14px; 
+	font-size: 18px; 
 	line-height: 24px;
-	color: {{ site.colors.secondary }};   /*more info字体*/
+	color: #000;   /*more info字体*/
 	margin-top: 10px; 
 }
 .btn:focus,
