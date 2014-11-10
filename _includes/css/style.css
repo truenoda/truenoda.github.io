@@ -314,9 +314,9 @@ fieldset[disabled] .btn-xl.active {
         max-width: 70em;
         height: 450px;
         margin-top: 2em;
-        min-width: 1200px;
+        min-width: 1282px;
 		min-height: 810px;
-        max-width: 1280px;
+        max-width: 1300px;
     }
     .photo-album .polaroid {
         position: absolute;
