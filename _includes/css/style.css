@@ -305,6 +305,9 @@ fieldset[disabled] .btn-xl.active {
     }
     
     .photo-album {
+		background:url(http://liubai.qiniudn.com/bg5.jpg);
+		background-position:center;
+		background-repeat:no-repeat; 		
         position: relative;
         width: 80%;
         margin: 0 auto;
@@ -312,6 +315,7 @@ fieldset[disabled] .btn-xl.active {
         height: 450px;
         margin-top: 2em;
         min-width: 1200px;
+		min-height: 810px;
         max-width: 1280px;
     }
     .photo-album .polaroid {
