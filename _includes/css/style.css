@@ -346,7 +346,7 @@ fieldset[disabled] .btn-xl.active {
 .btn:active:focus {
     outline: 0;
 }
-/* Portfolio Wrap 
+/* Portfolio Wrap */
 #portfoliowrap {
 	background:url(http://liubai.qiniudn.com/bg5.jpg);
 	background-position:center;
@@ -394,7 +394,7 @@ fieldset[disabled] .btn-xl.active {
 	background-color:{{ site.colors.primary }};
 	background-color:rgba({{ site.colors.primary_rgb }},.9);
 	text-align:center;
-}*/
+}
 .btn:focus,
 .btn:active,
 .btn.active,
