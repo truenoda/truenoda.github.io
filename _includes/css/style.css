@@ -348,32 +348,19 @@ fieldset[disabled] .btn-xl.active {
 }
 /* Portfolio Wrap */
 #portfoliowrap {
-	background:url(http://liubai.qiniudn.com/bg5.jpg);
-	background-position:center;
-	background-repeat:no-repeat; 
-	min-height: 810px;
-	margin-top: 0px; /*
 	padding-top: 60px;
 	margin-bottom: 60px;
 	display: block;
-	text-align: center */
+	text-align: center
 }
 
 #portfoliowrap h3 {
 	margin-bottom: 25px;
 }
-#portfoliowrap * {
-	margin: 0px;
-	padding: 0px;
-	text-align: center;
-	font-size: 44px;
-	margin-bottom: 12px;
-	min-height: 146px;
-}
 
 .portfolio {
-	padding-left: 80px;
-	padding-right: 80px;
+	padding:0 !important;
+	margin:0 !important;
 	display:block;
 }
 
