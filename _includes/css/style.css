@@ -413,7 +413,7 @@ fieldset[disabled] .btn-xl.active {
     outline: 0;
 }
 
-/* article Wrap ===================================================================*/
+/* article Wrap ===================================================================
 #article {
 	background:url(http://liubai.qiniudn.com/bg4.jpg);
 	background-position:center;
@@ -447,7 +447,7 @@ fieldset[disabled] .btn-xl.active {
 	font-weight: 400;
 	font-size: 14px; 
 	line-height: 24px;
-	color: {{ site.colors.secondary }};   /*more info字体*/
+	color: {{ site.colors.secondary }};   
 	margin-top: 10px; 
 }
 .btn:focus,
@@ -455,7 +455,7 @@ fieldset[disabled] .btn-xl.active {
 .btn.active,
 .btn:active:focus {
     outline: 0;
-}
+}  /*more info字体*/ */
 /* Testimonials Wrap */
 
 #twrapback {
