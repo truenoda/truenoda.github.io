@@ -314,12 +314,6 @@ fieldset[disabled] .btn-xl.active {
 	font-size: 110px;
 	padding: 15px;
 	padding-right: 800px;
-	text-decoration: none; 
-	-webkit-transition: background-color .4s linear, color .4s linear;
-	-moz-transition: background-color .4s linear, color .4s linear;
-	-o-transition: background-color .4s linear, color .4s linear;
-	-ms-transition: background-color .4s linear, color .4s linear;
-	transition: background-color .4s linear, color .4s linear;
 }
 #service * {
 	margin: 0px;
