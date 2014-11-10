@@ -470,7 +470,7 @@ fieldset[disabled] .btn-xl.active {
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 700px;                /* 这是下面倒数第二份 */
+	min-height: 810px;                /* 这是下面倒数第二份 */
 	width: 100%;
 	
     -webkit-background-size: 100%;
