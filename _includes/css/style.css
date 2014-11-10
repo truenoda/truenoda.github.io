@@ -313,7 +313,7 @@ fieldset[disabled] .btn-xl.active {
         margin: 0 auto;
         max-width: 70em;
         height: 450px;
-        margin-top: 2em;
+        margin-top: 0em;
         min-width: 1282px;
 		min-height: 810px;
         max-width: 1300px;
