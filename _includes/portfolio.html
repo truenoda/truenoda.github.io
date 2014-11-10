@@ -1,25 +1,146 @@
 <div id="portfoliowrap">
     <div class="portfolio-centered">
         {% if include.title %}<h3>{{ include.title }}</h3>{% endif %}
-        <div class="recentitems portfolio">
-            {% for project in site.categories['project'] limit:include.limit %}
-                <div class="portfolio-item graphic-design">
+		<div style="position: relative; overflow: hidden; height: 384px;" class="recentitems portfolio isotope">
+            
+                <div style="position: absolute; left: 0px; top: 0px; transform: translate(0px, 0px); width: 256px;" class="portfolio-item graphic-design isotope-item">
                     <div class="he-wrap tpl6">
-                    <img src="{{ "/assets/img/project/" | prepend: site.baseurl }}{{ project.img }}" alt="">
+                    <img src="http://liubai.github.io/assets/img/project/portfolio_05.jpg" alt="">
                         <div class="he-view">
                             <div class="bg a0" data-animate="fadeIn">
-                                <h3 class="a1" data-animate="fadeInDown">{{ project.title }}</h3>
-                                <a data-rel="prettyPhoto" href="{{ "/assets/img/project/" | prepend: site.baseurl }}{{ project.img }}" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
-                                <a href="{{  project.url | prepend: site.baseurl }}" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
+                                <h3 class="a1" data-animate="fadeInDown">YOUR PROJECT NAME</h3>
+                                <a data-rel="prettyPhoto" href="/assets/img/project/portfolio_05.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
+                                <a href="/project/2014/04/25/your-project-name.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
                             </div><!-- he bg -->
                         </div><!-- he view -->		
                     </div><!-- he wrap -->
                 </div><!-- end col-12 -->
-            {% endfor %}
-        </div><!-- portfolio -->
+            
+                <div style="position: absolute; left: 0px; top: 0px; transform: translate(256px, 0px); width: 256px;" class="portfolio-item graphic-design isotope-item">
+                    <div class="he-wrap tpl6">
+                    <img src="http://liubai.github.io/assets/img/project/portfolio_03.jpg" alt="">
+                        <div class="he-view">
+                            <div class="bg a0" data-animate="fadeIn">
+                                <h3 class="a1" data-animate="fadeInDown">YOUR PROJECT NAME</h3>
+                                <a data-rel="prettyPhoto" href="/assets/img/project/portfolio_03.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
+                                <a href="/project/2014/04/25/your-project-name.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
+                            </div><!-- he bg -->
+                        </div><!-- he view -->		
+                    </div><!-- he wrap -->
+                </div><!-- end col-12 -->
+            
+                <div style="position: absolute; left: 0px; top: 0px; transform: translate(512px, 0px); width: 256px;" class="portfolio-item graphic-design isotope-item">
+                    <div class="he-wrap tpl6">
+                    <img src="http://liubai.github.io/assets/img/project/portfolio_10.jpg" alt="">
+                        <div class="he-view">
+                            <div class="bg a0" data-animate="fadeIn">
+                                <h3 class="a1" data-animate="fadeInDown">YOUR PROJECT NAME</h3>
+                                <a data-rel="prettyPhoto" href="/assets/img/project/portfolio_10.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
+                                <a href="/project/2014/04/25/your-project-name.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
+                            </div><!-- he bg -->
+                        </div><!-- he view -->		
+                    </div><!-- he wrap -->
+                </div><!-- end col-12 -->
+            
+                <div style="position: absolute; left: 0px; top: 0px; transform: translate(768px, 0px); width: 256px;" class="portfolio-item graphic-design isotope-item">
+                    <div class="he-wrap tpl6">
+                    <img src="http://liubai.github.io/assets/img/project/portfolio_09.jpg" alt="">
+                        <div class="he-view">
+                            <div class="bg a0" data-animate="fadeIn">
+                                <h3 class="a1" data-animate="fadeInDown">YOUR PROJECT NAME</h3>
+                                <a data-rel="prettyPhoto" href="/assets/img/project/portfolio_09.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
+                                <a href="/project/2014/04/25/your-project-name.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
+                            </div><!-- he bg -->
+                        </div><!-- he view -->		
+                    </div><!-- he wrap -->
+                </div><!-- end col-12 -->
+            
+                <div style="position: absolute; left: 0px; top: 0px; transform: translate(1024px, 0px); width: 256px;" class="portfolio-item graphic-design isotope-item">
+                    <div class="he-wrap tpl6">
+                    <img src="http://liubai.github.io/assets/img/project/portfolio_02.jpg" alt="">
+                        <div class="he-view">
+                            <div class="bg a0" data-animate="fadeIn">
+                                <h3 class="a1" data-animate="fadeInDown">YOUR PROJECT NAME</h3>
+                                <a data-rel="prettyPhoto" href="/assets/img/project/portfolio_02.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
+                                <a href="/project/2014/04/25/your-project-name.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
+                            </div><!-- he bg -->
+                        </div><!-- he view -->		
+                    </div><!-- he wrap -->
+                </div><!-- end col-12 -->
+            
+                <div style="position: absolute; left: 0px; top: 0px; transform: translate(0px, 192px); width: 256px;" class="portfolio-item graphic-design isotope-item">
+                    <div class="he-wrap tpl6">
+                    <img src="http://liubai.github.io/assets/img/project/portfolio_01.jpg" alt="">
+                        <div class="he-view">
+                            <div class="bg a0" data-animate="fadeIn">
+                                <h3 class="a1" data-animate="fadeInDown">YOUR PROJECT NAME</h3>
+                                <a data-rel="prettyPhoto" href="/assets/img/project/portfolio_01.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
+                                <a href="/project/2014/04/25/your-project-name.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
+                            </div><!-- he bg -->
+                        </div><!-- he view -->		
+                    </div><!-- he wrap -->
+                </div><!-- end col-12 -->
+            
+                <div style="position: absolute; left: 0px; top: 0px; transform: translate(256px, 192px); width: 256px;" class="portfolio-item graphic-design isotope-item">
+                    <div class="he-wrap tpl6">
+                    <img src="http://liubai.github.io/assets/img/project/portfolio_06.jpg" alt="">
+                        <div class="he-view">
+                            <div class="bg a0" data-animate="fadeIn">
+                                <h3 class="a1" data-animate="fadeInDown">YOUR PROJECT NAME</h3>
+                                <a data-rel="prettyPhoto" href="/assets/img/project/portfolio_06.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
+                                <a href="/project/2014/04/25/your-project-name.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
+                            </div><!-- he bg -->
+                        </div><!-- he view -->		
+                    </div><!-- he wrap -->
+                </div><!-- end col-12 -->
+            
+                <div style="position: absolute; left: 0px; top: 0px; transform: translate(512px, 192px); width: 256px;" class="portfolio-item graphic-design isotope-item">
+                    <div class="he-wrap tpl6">
+                    <img src="http://liubai.github.io/assets/img/project/portfolio_04.jpg" alt="">
+                        <div class="he-view">
+                            <div class="bg a0" data-animate="fadeIn">
+                                <h3 class="a1" data-animate="fadeInDown">YOUR PROJECT NAME</h3>
+                                <a data-rel="prettyPhoto" href="/assets/img/project/portfolio_04.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
+                                <a href="/project/2014/04/25/your-project-name.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
+                            </div><!-- he bg -->
+                        </div><!-- he view -->		
+                    </div><!-- he wrap -->
+                </div><!-- end col-12 -->
+            
+                <div style="position: absolute; left: 0px; top: 0px; transform: translate(768px, 192px); width: 256px;" class="portfolio-item graphic-design isotope-item">
+                    <div class="he-wrap tpl6">
+                    <img src="http://liubai.github.io/assets/img/project/portfolio_08.jpg" alt="">
+                        <div class="he-view">
+                            <div class="bg a0" data-animate="fadeIn">
+                                <h3 class="a1" data-animate="fadeInDown">YOUR PROJECT NAME</h3>
+                                <a data-rel="prettyPhoto" href="/assets/img/project/portfolio_08.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
+                                <a href="/project/2014/04/25/your-project-name.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
+                            </div><!-- he bg -->
+                        </div><!-- he view -->		
+                    </div><!-- he wrap -->
+                </div><!-- end col-12 -->
+            
+                <div style="position: absolute; left: 0px; top: 0px; transform: translate(1024px, 192px); width: 256px;" class="portfolio-item graphic-design isotope-item">
+                    <div class="he-wrap tpl6">
+                    <img src="http://liubai.github.io/assets/img/project/portfolio_07.jpg" alt="">
+                        <div class="he-view">
+                            <div class="bg a0" data-animate="fadeIn">
+                                <h3 class="a1" data-animate="fadeInDown">YOUR PROJECT NAME</h3>
+                                <a data-rel="prettyPhoto" href="/assets/img/project/portfolio_07.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
+                                <a href="/project/2014/04/25/your-project-name.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
+                            </div><!-- he bg -->
+                        </div><!-- he view -->		
+                    </div><!-- he wrap -->
+                </div><!-- end col-12 -->
+            
+        </div>
     </div><!-- portfolio container -->
 	<div id="pro" class="box">
 		<a href="#twrap" class="page-scroll btn btn-xl fa fa-angle-down"></a>
 	</div>	
-</div><!--/Portfoliowrap -->
+</div><!--/Portfoliowrap 
+
+
+-->
+
 
