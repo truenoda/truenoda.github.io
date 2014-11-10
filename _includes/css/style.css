@@ -314,11 +314,11 @@ fieldset[disabled] .btn-xl.active {
 	font-size: 110px;
 	padding: 15px;
 	padding-right: 800px;
-	margin-left: 100px;
+	margin-left: 210px;
 }
 #service h4 {
 	margin-left: 10px;
-	font-size: 18px;
+	font-size: 67px;
 }
 #service * {
 	margin: 0px;
@@ -348,7 +348,7 @@ fieldset[disabled] .btn-xl.active {
 }
 /* Portfolio Wrap */
 #portfoliowrap {
-	background:url(http://liubai.qiniudn.com/port.jpg);
+	background:url(http://liubai.qiniudn.com/bg5.jpg);
 	background-position:center;
 	background-repeat:no-repeat; 
 	min-height: 810px;
@@ -415,7 +415,7 @@ fieldset[disabled] .btn-xl.active {
 
 /* article Wrap ===================================================================*/
 #article {
-	background:url(http://liubai.qiniudn.com/shanshuibg1.jpg);
+	background:url(http://liubai.qiniudn.com/bg4.jpg);
 	background-position:center;
 	background-repeat:repeat; 
 	min-height: 810px;
