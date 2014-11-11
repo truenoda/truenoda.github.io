@@ -26,7 +26,7 @@ $(function(){
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h3></h3>
-                <h1>流白a</h1>
+                <h1>流白</h1>
                 <h5>想得却不可得，你奈人生何。该舍的舍不得 只顾着跟往事瞎扯</h5>
                 <h5></h5>
 				<h3></h3>
@@ -38,7 +38,22 @@ $(function(){
 				<title></title>
 				</head>
 				<body>
-					<img src="http://liubai.qiniudn.com/logo1.png">
+					<img src="http://liubai.qiniudn.com/logo1.png"
+						<style>
+						img{
+							-webkit-transition: 0.4s;
+							-webkit-transition: -webkit-transform 0.4s ease-out;
+							transition: transform 0.4s ease-out;
+							-moz-transition: -moz-transform 0.4s ease-out;
+						}
+						  
+						img:hover{
+							transform: rotateZ(360deg) scale(0.4);
+							-webkit-transform: rotateZ(360deg) scale(0.4);
+							-moz-transform: rotateZ(360deg) scale(0.4);
+						}
+						</style>
+					>
 					<object data="http://liubai.qiniudn.com/other%E5%90%8E%E6%9D%A52.mp3" type="application/x-mplayer2" width="0" height="0">
 					<param name="src" value=http://liubai.qiniudn.com/other%E5%90%8E%E6%9D%A52.mp3">
 					<param name="autostart" value="1">
