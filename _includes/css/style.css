@@ -647,7 +647,7 @@ fieldset[disabled] .btn-xl.active {
     outline: 0;
 }
 
-/* article Wrap ===================================================================
+/article Wrap ===================================================================
 #article {
 	background:url(http://liubai.qiniudn.com/bg4.jpg);
 	background-position:center;
@@ -689,7 +689,7 @@ fieldset[disabled] .btn-xl.active {
 .btn.active,
 .btn:active:focus {
     outline: 0;
-}  /*more info字体*/ */
+}  /*more info字体*/ 
 /* Testimonials Wrap */
 
 #twrapback {
