@@ -690,7 +690,7 @@ fieldset[disabled] .btn-xl.active {
 	color: {{ site.colors.secondary }};   
 	margin-top: 10px; 
 }
-#map {
+#map_canvas {
 	left: 70px;
 	top: 100px;
 	height: 380px;
@@ -698,6 +698,7 @@ fieldset[disabled] .btn-xl.active {
 	border: 10px solid #EFEFEF;
 }
 #pro a{
+	left: 300px;
 	bottom: 100px;
 	text-align: center;
 	font-size: 44px;
