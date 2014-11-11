@@ -451,14 +451,14 @@ fieldset[disabled] .btn-xl.active {
     }
     .photo-album .img13 {
         bottom: 330px;
-        right: 540px;
+        right: 590px;
         -webkit-transform: rotate(4deg);
         -moz-transform: rotate(4deg);
         transform: rotate(4deg);
     }
     .photo-album .img14 {
         top: 250px;
-        left: 200px;
+        left: 320px;
         -webkit-transform: rotate(15deg);
         -moz-transform: rotate(15deg);
         transform: rotate(15deg);
