@@ -319,6 +319,9 @@ fieldset[disabled] .btn-xl.active {
 }
 #photo a{
 	font-size: 13px;
+}                     /*特意为图片的字加了一个规则*/
+#pro a{
+	font-size: 44px;
 }
 #photo *{
 	margin: 0px 0px 12px;
