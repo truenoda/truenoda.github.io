@@ -308,11 +308,14 @@ fieldset[disabled] .btn-xl.active {
 		background-position:center;
 		background-repeat:no-repeat; 		
         position: relative;
+        width: 100%;
         margin: 0 auto;
         max-width: 70em;
         height: 450px;
         margin-top: 0em;
+        min-width: 1290x;
 		min-height: 810px;
+        max-width: 1300px;
 }
     .photo-album {
         position: relative;
