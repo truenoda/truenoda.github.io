@@ -487,6 +487,19 @@ fieldset[disabled] .btn-xl.active {
 	-webkit-transform: rotateZ(360deg) scale(0.4);
 	-moz-transform: rotateZ(360deg) scale(0.4);
 	}
+	
+	
+.photo-album img{
+	-webkit-transition: 0.4s;
+	-webkit-transition: -webkit-transform 0.4s ease-out;
+	transition: transform 0.4s ease-out;
+	-moz-transition: -moz-transform 0.4s ease-out;
+	}  
+.photo-album img:hover{
+	transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	}
 						
 
 /*	################################################################
