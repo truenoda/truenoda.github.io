@@ -690,14 +690,14 @@ fieldset[disabled] .btn-xl.active {
 	color: {{ site.colors.secondary }};   
 	margin-top: 10px; 
 }
-#map_canvas {
+#map {
 	left: 70px;
 	top: 100px;
 	height: 380px;
 	width: 500px;
 	border: 10px solid #EFEFEF;
 }
-#pro {
+#pro a{
 	bottom: 100px;
 	text-align: center;
 	font-size: 44px;
