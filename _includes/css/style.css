@@ -303,7 +303,7 @@ fieldset[disabled] .btn-xl.active {
         border: none;
         display: block;
     }
-    #photo {
+#photo {
 		background:url(http://liubai.qiniudn.com/bg5.jpg);
 		background-position:center;
 		background-repeat:no-repeat; 		
@@ -316,6 +316,14 @@ fieldset[disabled] .btn-xl.active {
         min-width: 1290x;
 		min-height: 810px;
         max-width: 1300px;
+}
+#photo *{
+	margin: 0px 0px 12px;
+	padding: 0px;
+	text-align: center;
+	font-size: 44px;
+	color: #000;
+	min-height: 56px;
 }
     .photo-album {
         position: relative;
@@ -649,7 +657,7 @@ fieldset[disabled] .btn-xl.active {
 
 /article Wrap ===================================================================
 #article {
-	background:url(http://liubai.qiniudn.com/bg4.jpg);
+	background:url(http://liubai.qiniudn.com/slide2.jpg);
 	background-position:center;
 	background-repeat:repeat; 
 	min-height: 810px;
