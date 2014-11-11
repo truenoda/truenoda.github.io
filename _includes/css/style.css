@@ -395,7 +395,7 @@ fieldset[disabled] .btn-xl.active {
     }
     .photo-album .img5 {
         bottom: 320;
-        right: 30;
+        left: 420;
         -webkit-transform: rotate(-7deg);
         -moz-transform: rotate(-7deg);
         transform: rotate(-7deg);
