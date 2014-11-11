@@ -317,6 +317,9 @@ fieldset[disabled] .btn-xl.active {
 		min-height: 810px;
         max-width: 1300px;
 }
+#photo a{
+	font-size: 13px;
+}
 #photo *{
 	margin: 0px 0px 12px;
 	padding: 0px;
