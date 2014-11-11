@@ -701,6 +701,9 @@ fieldset[disabled] .btn-xl.active {
 #map_canvas {
 	left: 70px;
 	top: 100px;
+	height: 380px;
+	width: 500px;
+	border: 10px solid #EFEFEF;
 }
 .btn:focus,
 .btn:active,
