@@ -394,7 +394,7 @@ fieldset[disabled] .btn-xl.active {
         transform: rotate(-10deg);
     }
     .photo-album .img4 {
-        top: 50px;
+        top: 40px;
         left: 555px;
         -webkit-transform: rotate(15deg);
         -moz-transform: rotate(15deg);
@@ -436,14 +436,14 @@ fieldset[disabled] .btn-xl.active {
         transform: rotate(-8deg);
     }
     .photo-album .img11 {
-        top: 13;
+        top: 14px;
         right: 200px;
         -webkit-transform: rotate(8deg);
         -moz-transform: rotate(8deg);
         transform: rotate(8deg);
     }
     .photo-album .img12 {
-        top: 15;
+        top: 15px;
         left: 740px;
         -webkit-transform: rotate(-10deg);
         -moz-transform: rotate(-10deg);
