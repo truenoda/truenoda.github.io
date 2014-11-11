@@ -321,7 +321,7 @@ fieldset[disabled] .btn-xl.active {
 	font-size: 13px;
 }                     /*特意为图片的字加了一个规则*/
 #pro a{
-	font-size: 44px;
+	font-size: 44px;       /* 这个是为了向下的按钮*/
 }
 #photo *{
 	margin: 0px 0px 12px;
@@ -661,7 +661,7 @@ fieldset[disabled] .btn-xl.active {
     outline: 0;
 }
 
-/article Wrap ===================================================================
+/*article Wrap ===================================================================*/
 #article {
 	background:url(http://liubai.qiniudn.com/slide2.jpg);
 	background-position:center;
