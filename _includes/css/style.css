@@ -698,6 +698,10 @@ fieldset[disabled] .btn-xl.active {
 	color: {{ site.colors.secondary }};   
 	margin-top: 10px; 
 }
+#map_canvas {
+	left: 70px;
+	top: 100px;
+}
 .btn:focus,
 .btn:active,
 .btn.active,
