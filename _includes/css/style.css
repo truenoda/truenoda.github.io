@@ -388,13 +388,13 @@ fieldset[disabled] .btn-xl.active {
     }
     .photo-album .img3 {
         left: 410px;
-        top: 13;
+        top: 14px;
         -webkit-transform: rotate(-10deg);
         -moz-transform: rotate(-10deg);
         transform: rotate(-10deg);
     }
     .photo-album .img4 {
-        top: 40px;
+        top: 30px;
         left: 555px;
         -webkit-transform: rotate(15deg);
         -moz-transform: rotate(15deg);
