@@ -341,7 +341,8 @@ fieldset[disabled] .btn-xl.active {
     .photo-album .small {
         width: 150px;
         padding: 6px 6px 12px 6px;
-        font-size: 0.6em;
+        font-size: 13px;
+		font-family: Microsoft YaHei;
     }
     .photo-album .small img {
         width: 150px;
