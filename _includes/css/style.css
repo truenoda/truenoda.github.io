@@ -380,7 +380,7 @@ fieldset[disabled] .btn-xl.active {
         transform: rotate(10deg);
     }
     .photo-album .img2 {
-        top: 40px;
+        top: 30px;
         right: 40px;
         -webkit-transform: rotate(-4deg);
         -moz-transform: rotate(-4deg);
@@ -388,7 +388,7 @@ fieldset[disabled] .btn-xl.active {
     }
     .photo-album .img3 {
         left: 410px;
-        top: 0;
+        top: 13;
         -webkit-transform: rotate(-10deg);
         -moz-transform: rotate(-10deg);
         transform: rotate(-10deg);
@@ -408,21 +408,14 @@ fieldset[disabled] .btn-xl.active {
         transform: rotate(-7deg);
     }
     .photo-album .img6 {
-        bottom: 370px;
-        right: 216px;
+        bottom: 0px;
+        right: 186px;
         -webkit-transform: rotate(6deg);
         -moz-transform: rotate(6deg);
         transform: rotate(6deg);
     }
-    .photo-album .img7 {
-        bottom:360;
-        left:370px;
-        -webkit-transform: rotate(-10deg);
-        -moz-transform: rotate(-10deg);
-        transform: rotate(-10deg);
-    }
     .photo-album .img8 {
-        bottom: 300px;
+        bottom: 0px;
         left: 740px;
         -webkit-transform: rotate(-8deg);
         -moz-transform: rotate(-8deg);
@@ -436,7 +429,7 @@ fieldset[disabled] .btn-xl.active {
         transform: rotate(-8deg);
     }
     .photo-album .img10 {
-        top: 10;
+        top: 40px;
         left: 50px;
         -webkit-transform: rotate(-8deg);
         -moz-transform: rotate(-8deg);
@@ -451,13 +444,13 @@ fieldset[disabled] .btn-xl.active {
     }
     .photo-album .img12 {
         top: 0;
-        left: 720px;
+        left: 740px;
         -webkit-transform: rotate(-10deg);
         -moz-transform: rotate(-10deg);
         transform: rotate(-10deg);
     }
     .photo-album .img13 {
-        bottom: 330px;
+        bottom: 0px;
         right: 590px;
         -webkit-transform: rotate(4deg);
         -moz-transform: rotate(4deg);
