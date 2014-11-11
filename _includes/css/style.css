@@ -436,14 +436,14 @@ fieldset[disabled] .btn-xl.active {
         transform: rotate(-8deg);
     }
     .photo-album .img11 {
-        top: 0;
+        top: 13;
         right: 200px;
         -webkit-transform: rotate(8deg);
         -moz-transform: rotate(8deg);
         transform: rotate(8deg);
     }
     .photo-album .img12 {
-        top: 0;
+        top: 15;
         left: 740px;
         -webkit-transform: rotate(-10deg);
         -moz-transform: rotate(-10deg);
