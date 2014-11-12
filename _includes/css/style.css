@@ -691,6 +691,7 @@ fieldset[disabled] .btn-xl.active {
 	padding-right: 800px;
 }
 #article * {
+	text-align: center;
 }
 #pro a{
 	font-size: 44px;       /* 这个是为了向下的按钮*/
