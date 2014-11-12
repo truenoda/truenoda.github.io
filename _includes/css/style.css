@@ -678,7 +678,15 @@ fieldset[disabled] .btn-xl.active {
 	padding: 15px;
 	padding-right: 800px;
 }
-
+#article * {
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	font-size: 44px;
+	margin-bottom: 12px;
+	color: #000;
+	min-height: 218px;	
+}
 #article p { 
 	padding: 0; 
 	padding-right: 800px;
@@ -689,19 +697,6 @@ fieldset[disabled] .btn-xl.active {
 	line-height: 24px;
 	color: {{ site.colors.secondary }};   
 	margin-top: 10px; 
-}
-#map_canvas {
-	left: 70px;
-	top: 100px;
-	height: 380px;
-	width: 500px;
-	border: 10px solid #EFEFEF;
-}
-#pro a{
-	left: 300px;
-	bottom: 100px;
-	text-align: center;
-	font-size: 44px;
 }
 .btn:focus,
 .btn:active,
