@@ -9,7 +9,7 @@
  
         var var_mapoptions = {
         center: var_location,
-        zoom: 14
+        zoom: 50
         };
  
 		var var_marker = new google.maps.Marker({
@@ -21,13 +21,7 @@
             var_mapoptions);
  
         var_marker.setMap(var_map);	
-		
-		var mapTypes = map.getMapTypes();
- 6      for(var i=0; i<mapTypes.length; i++)
- 7      {
- 8         mapTypes[i].getMinimumResolution = function() { return 50; };
- 9         mapTypes[i].getMaximumResulution = function() { return 90; };
-10      }
+	
  
       }
  
