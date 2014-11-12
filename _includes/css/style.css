@@ -691,13 +691,6 @@ fieldset[disabled] .btn-xl.active {
 	padding-right: 800px;
 }
 #article * {
-	margin: 0px;
-	padding: 0px;
-	text-align: center;
-	font-size: 44px;
-	margin-bottom: 12px;
-	color: #000;
-	min-height: 218px;	
 }
 #article p { 
 	padding: 0; 
