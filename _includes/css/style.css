@@ -70,10 +70,10 @@ a:focus {
 #map-container { height: 300px }
 
       #map-outer {  height: 440px;
-   padding: 20px;
-border: 2px solid #CCC;
-margin-bottom: 20px;
-background-color:#FFF }
+   padding: 0px;
+border: 0px solid #CCC;
+margin-bottom: 0px;
+background-color: transparent }
   #map-container { height: 400px }
   @media all and (max-width: 768px) {
 #map-outer  { height: 650px }
@@ -327,7 +327,7 @@ fieldset[disabled] .btn-xl.active {
         margin-top: 0em;
         min-width: 1290x;
 		min-height: 810px;
-        max-width: 1300px;
+        max-width: 1400px;
 }
 #photo a{
 	font-size: 13px;
