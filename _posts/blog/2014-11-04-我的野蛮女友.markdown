@@ -12,6 +12,7 @@ thumb: thumb04.jpg
 
 宋明熙
 # 你要相信 #
+    include "iostream"
 2001年上映的电影，我大概是在10年前看过吧，
 只记得一个情节，就是他们换鞋子穿，只是感觉好玩而已。
 <img src="http://liubai.qiniudn.com/1.jpg" style="width:700px;height=378px">
