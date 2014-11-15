@@ -533,16 +533,13 @@ fieldset[disabled] .btn-xl.active {
 	}
 						
 .navleft {
-	font-size: 30px;
-	background: #888
+	background: #1D1D1D;
 }
 .navleft2 {
-	font-size: 30px;
-	top: 100px;
+	margin-top: 100px;
 }
 .navleft3 {
-	font-size: 30px;
-	bottom:80px;
+	margin-bottom:80px;
 }
 						
 						
