@@ -40,7 +40,7 @@ p {
 	margin-bottom: 12px; 
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
-	font-size: 14px; 
+	font-size: 17px; 
 	line-height: 24px;
 	color: {{ site.colors.secondary }};   /*more info字体*/
 	margin-top: 10px; 
@@ -264,7 +264,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .hline {
-	border-bottom: 2px solid {{ site.colors.secondary }};
+	border-bottom: 1px solid {{ site.colors.secondary }};
 }
 
 .hline-w {
@@ -831,7 +831,8 @@ fieldset[disabled] .btn-xl.active {
 .ctitle {
 	color: {{ site.colors.primary }};
 	font-weight: 700;
-	margin-bottom: 15px;
+	margin-bottom: 0px;
+	font-family: 楷体;
 }
 
 csmall {
