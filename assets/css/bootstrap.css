@@ -1280,6 +1280,7 @@ pre code {
     width: 41.66666667%;
   }
   .col-lg-4 {
+	left: 50px;
     width: 24%;
 	position: fixed;
   }
