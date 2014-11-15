@@ -892,7 +892,7 @@ csmall {
 /* Blog Page */
 .popular-posts { 
 	margin: 0px;
-	padding-left: 0px;
+	padding-left: 20px;
 	}
 	
 .popular-posts li {
