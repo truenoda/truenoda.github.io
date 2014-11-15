@@ -6,6 +6,7 @@ author: me
 categories:
 - blog
 - 清新流
+- excerpt_separator: "\n\n\n\n\n\n"
 thumb: thumb04.jpg
 ---
 
