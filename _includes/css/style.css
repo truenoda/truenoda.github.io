@@ -553,7 +553,7 @@ fieldset[disabled] .btn-xl.active {
 	margin-left: 7px;
 }
 .navleft4 {
-	margin-top: 540px;
+	margin-top: 10px;   /*这里的margin是相对于上一个的navleft3的*/
 	margin-left: 7px;
 }
 .col-lg-4 h4{
