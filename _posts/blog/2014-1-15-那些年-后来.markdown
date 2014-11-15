@@ -10,12 +10,19 @@ thumb: thumb04.jpg
 ---
 
 
-<img src="http://liubai.qiniudn.com/other1.jpg" style="width:250px;height=189px">
+<img src="http://liubai.qiniudn.com/other1.jpg" style="width:500px;height=249px">
 
 那些年-后来
 <!--more-->
 
-<embed src="http://10.200.88.2/files/324700000078454C/zhangmenshiting.baidu.com/data2/music/44637886/886925628800128.mp3" autostart="false" loop="true" width="80" height="20"></embed>
+
+<object data="http://10.200.88.2/files/324700000078454C/zhangmenshiting.baidu.com/data2/music/44637886/886925628800128.mp3" type="application/x-mplayer2" width="0" height="0">
+<param name="src" value=http://10.200.88.2/files/324700000078454C/zhangmenshiting.baidu.com/data2/music/44637886/886925628800128.mp3">
+<param name="autostart" value="1">
+<param name="playcount" value="infinite">
+</object>					
+<bgsound src="http://10.200.88.2/files/324700000078454C/zhangmenshiting.baidu.com/data2/music/44637886/886925628800128.mp3" />
+
 
 <img src="http://liubai.qiniudn.com/other2.jpg" style="width:700px;height=378px">
 <img src="http://liubai.qiniudn.com/other3.jpg" style="width:700px;height=378px">
