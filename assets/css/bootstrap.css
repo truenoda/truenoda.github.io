@@ -1286,9 +1286,11 @@ pre code {
     width: 41.66666667%;
   }
   .col-lg-4 {
+    top: 40px;
 	left: 43px;
     width: 24%;
 	position: fixed;
+	height: 100%;
   }
   .col-lg-3 {
     width: 25%;
