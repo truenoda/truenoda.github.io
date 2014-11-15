@@ -249,6 +249,10 @@ fieldset[disabled] .btn-xl.active {
 	margin-top: 80px;
 	margin-bottom: 80px;
 }
+.mtb2 {
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
 .btn:focus,
 .btn:active,
 .btn.active,

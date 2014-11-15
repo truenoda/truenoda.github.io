@@ -4,12 +4,10 @@ title: Blog
 permalink: /blog/
 ---
 
-<div class="container mtb">
+<div class="container mtb2">
     <div class="row">
-
         <! -- BLOG POSTS LIST -->
         <div class="col-lg-9">
-
             {% for post in site.categories['blog'] %}
                 <! -- Blog Post --> 
                 <a href="{{ post.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ post.title }}</h3></a>
@@ -17,13 +15,9 @@ permalink: /blog/
 				{{ post.excerpt }}
 				<a href="{{ post.url | prepend: site.baseurl }}">文</a></p>
                 <div class="hline"></div>
-
                 <div class="spacing"></div>
             {% endfor %}
-
         </div><! --/col-lg-9 -->
-
         {% include sidebar.html %}
-
     </div><! --/row -->
 </div><! --/container -->
