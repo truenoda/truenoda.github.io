@@ -848,7 +848,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .ctitle {
-	color: {{ site.colors.primary }};
+	color: #000;
 	font-weight: 400;
 	margin-bottom: 0px;
 }

@@ -1286,8 +1286,9 @@ pre code {
     width: 41.66666667%;
   }
   .col-lg-4 {
-    top: 40px;
-	left: 43px;
+	background: url(http://liubai.qiniudn.com/side2.jpg);
+	padding-top:50px;
+    left: 43px;
     width: 24%;
 	position: fixed;
 	height: 100%;
