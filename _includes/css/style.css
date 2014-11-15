@@ -539,11 +539,9 @@ fieldset[disabled] .btn-xl.active {
 .navleft2 {
 	bottom: 100px;
 }
-.col-lg-4 h4{
-	margin-left: 15px
-}						
+					
 	
-#col-lg-4 h4{
+#col-lg-4 h4 p {
 	margin-left: 15px
 }						
 		
