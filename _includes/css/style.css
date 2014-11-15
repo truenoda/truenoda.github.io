@@ -532,15 +532,15 @@ fieldset[disabled] .btn-xl.active {
 	-moz-transform: scale(1.4);
 	}
 						
-#navleft {
+.navleft {
 	font-size: 30px;
 	background: #888
 }
-#navleft2 {
+.navleft2 {
 	font-size: 30px;
 	top: 100px;
 }
-#navleft3 {
+.navleft3 {
 	font-size: 30px;
 	bottom:80px;
 }
