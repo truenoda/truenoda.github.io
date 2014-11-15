@@ -9,7 +9,7 @@ categories:
 thumb: thumb03.jpg
 ---
 
-<img src="http://liubai.qiniudn.com/libai.jpg" style="width:500px;height=248px">
+<img src="http://liubai.qiniudn.com/libai.jpg" style="width:300px;height=333px">
 
 
 ──痛饮狂歌空度日，飞扬跋扈为谁雄
