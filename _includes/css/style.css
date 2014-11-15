@@ -22,7 +22,7 @@
 	} 
 
 body { 
-	background: #ffffff; 
+	background: url("http://liubai.qiniudn.com/zhi.jpg"); 
 	margin: 0; 
 	height: 100%; 
 	color: {{ site.colors.secondary }};
@@ -250,7 +250,10 @@ fieldset[disabled] .btn-xl.active {
 	margin-bottom: 80px;
 }
 .mtb2 {
-	margin-top: 80px;
+	background:url(http://liubai.qiniudn.com/side.jpg);
+	background-position:center;
+	background-repeat:repeat; 
+	margin-top: 0px;
 	margin-bottom: 80px;
 }
 .btn:focus,
