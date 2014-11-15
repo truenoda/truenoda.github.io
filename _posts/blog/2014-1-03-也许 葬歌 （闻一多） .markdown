@@ -9,24 +9,16 @@ categories:
 - 散文流
 thumb: thumb04.jpg
 ---
-
-
+<img src="http://liubai.qiniudn.com/yexu.jpg" style="width:500px;height=248px">
 
 也许你真是哭得太累
 
-也许
-
-也许你要睡一睡
-
+也许，也许你要睡一睡
 
 
 那 叫夜鹰不要咳嗽
 
-蛙不要号
-
-蝙蝠 不要飞
-
-
+蛙不要号，蝙蝠 不要飞
 
 不许阳光拨你的眼帘
 
@@ -36,7 +28,7 @@ thumb: thumb04.jpg
 
 撑一伞松荫庇护你睡
 
-
+<!--more-->
 
 也许你听这蚯蚓翻泥
 
@@ -45,6 +37,8 @@ thumb: thumb04.jpg
 也许 你听这般的音乐
 
 比那咒骂的人声更美
+
+<img src="http://liubai.qiniudn.com/yexu1.jpg" style="width:500px;height=248px">
 
 
 那 你先把眼皮闭紧

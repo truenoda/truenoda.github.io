@@ -11,6 +11,7 @@ thumb: thumb04.jpg
 
 
 <img src="http://liubai.qiniudn.com/other1.jpg" style="width:250px;height=189px">
+
 那些年-后来
 <!--more-->
 

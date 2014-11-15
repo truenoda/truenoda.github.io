@@ -9,11 +9,14 @@ categories:
 thumb: thumb03.jpg
 ---
 
+<img src="http://liubai.qiniudn.com/libai.jpg" style="width:500px;height=248px">
 
 
 ──痛饮狂歌空度日，飞扬跋扈为谁雄
 
 余光中
+
+<!--more-->
 
 那一双傲慢的靴子至今还落在
 
@@ -49,11 +52,11 @@ thumb: thumb03.jpg
 
 肝硬化怎杀得死你？
 
-酒放豪肠，七分酿成了月光
+**酒放豪肠，七分酿成了月光**
 
-余下的三分啸成剑气
+**余下的三分啸成剑气**
 
-绣口一吐就半个盛唐
+**绣口一吐就半个盛唐**
 
 从开元到天宝，从洛阳到咸阳
 

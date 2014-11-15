@@ -8,7 +8,7 @@ categories:
 - 清新流
 thumb: thumb04.jpg
 ---
-
+<img src="http://liubai.qiniudn.com/花堪解语.jpg" style="width:500px;height=248px">
 
 夜色深沉。风摇荷亭，不谙花语，摇落一丛月光的薄薄叹息。
 
@@ -16,8 +16,14 @@ thumb: thumb04.jpg
 你来呢，还是不来？
 
 月华蘸着叫人落泪的潮意，浸渍湿重的足音。
+
 荷亭外那曲青光冷冷的石径，遍生的苍苔覆盖了细碎凌乱的步履。
+
 我似乎听到脚下水气弥漫荡漾的鼓翼之声，以及花朵随夜露薄薄呵开的丝竹之音。
+
+<!--more-->
+
+<img src="http://liubai.qiniudn.com/花堪解语2.jpg" style="width:500px;height=248px">
 
 那声音漫漶着若有似无的清芬，是一段淡淡的挥之不去的愁郁？是某种欲说还休的心绪？
 我知道你并不在意我的脆弱，不在意我有意的掩饰和佯装漠然的心潮。
