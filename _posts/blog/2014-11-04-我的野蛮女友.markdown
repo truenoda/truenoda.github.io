@@ -16,7 +16,7 @@ thumb: thumb04.jpg
 只记得一个情节，就是他们换鞋子穿，只是感觉好玩而已。
 <img src="http://liubai.qiniudn.com/1.jpg" style="width:700px;height=378px">
 
-excerpt_separator
+<!-- more -->
 
 后来上一次看，是在高二，寒假无聊，拿着新买的mp4 oppo s9看了一遍，竟然看哭了，
 不知道怎么的总感觉在男主角对她的新男友说完10条准则后，两个人就此分手，似乎

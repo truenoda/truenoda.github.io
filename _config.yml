@@ -5,6 +5,7 @@ description: "Write an awesome description for your new site here. You can edit 
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "" #important: start with /
 url: "http://truenoda.github.io"
+excerpt_separator: "<!-- more -->"
 
 # Build settings
 markdown: kramdown
