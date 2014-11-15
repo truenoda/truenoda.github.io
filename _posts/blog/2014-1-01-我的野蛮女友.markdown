@@ -11,11 +11,10 @@ thumb: thumb04.jpg
 
 有人说，这部电影叫做我的野蛮女友，不如叫做《I believe》
 
-<embed src="http://liubai.qiniudn.com/I Believe.mp3" autostart="false" loop="true" width="80" height="20">
 因为，无论这世界让你感觉到多么孤单，多么心灰绝望，你要相信，会有那么一个人，穿越过茫茫人海，找到你，义无反顾的爱上你。
 
 
-<img src="http://liubai.qiniudn.com/1.jpg" style="width:350px;height=189px">
+<img src="http://liubai.qiniudn.com/1.jpg" style="width:500px;height=248px">
 
 <!--more-->
 
@@ -25,6 +24,12 @@ thumb: thumb04.jpg
 。
 。
 。
+<object data="http://liubai.qiniudn.com/johannpachelbel.mp3" type="application/x-mplayer2" width="0" height="0">
+<param name="src" value=http://liubai.qiniudn.com/johannpachelbel.mp3">
+<param name="autostart" value="1">
+<param name="playcount" value="infinite">
+</object>					
+<bgsound src="http://liubai.qiniudn.com/johannpachelbel.mp3" />
 
 <img src="http://liubai.qiniudn.com/2.jpg" style="width:700px;height=378px">
 
@@ -65,9 +70,8 @@ zhendehaoxihuanzhamaweidenvsheng
 
 
 这部电影让我喜欢上了两首钢琴曲，一首叫做卡农一首叫做 Lost memory
-<embed src="http://liubai.qiniudn.com/我的野蛮女友LostMemory原声音乐.mp3" autostart="false" loop="true" width="80" height="20"></embed> 
 
-<embed src="http://liubai.qiniudn.com/johannpachelbel.mp3" autostart="false" loop="true" width="80" height="20"></embed> 
+
 
 <img src="http://liubai.qiniudn.com/16.jpg" style="width:700px;height=378px">
 <img src="http://liubai.qiniudn.com/17.jpg" style="width:700px;height=378px">
