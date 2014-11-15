@@ -534,8 +534,11 @@ fieldset[disabled] .btn-xl.active {
 						
 .navleft {
 	background: #1D1D1D;
+	height: 1300px;
 }
-
+.navleft2 {
+	bottom: 100px;
+}
 						
 						
 /*	################################################################
