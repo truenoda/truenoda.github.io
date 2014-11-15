@@ -769,7 +769,7 @@ pre code {
   min-height: 1px;
   padding-right: 15px;
   padding-left: 15px;
-  padding-top: 50px;      
+  padding-top: 43px;      
   
   /*=========================================== /**  /后面的被注释了啊！！！！！！！！！！    =============加入的*/
 }
@@ -1286,7 +1286,7 @@ pre code {
     width: 41.66666667%;
   }
   .col-lg-4 {
-	left: 50px;
+	left: 43px;
     width: 24%;
 	position: fixed;
   }
