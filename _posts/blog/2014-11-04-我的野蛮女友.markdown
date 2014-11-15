@@ -3,10 +3,10 @@ layout: post
 title: "Lost Memory —我的野蛮女友"
 date: 2014-11-4
 author: me
+excerpt_separator: "\n\n\n\n\n\n"
 categories:
 - blog
 - 清新流
-- excerpt_separator: "\n\n\n\n\n\n"
 thumb: thumb04.jpg
 ---
 
