@@ -22,7 +22,7 @@
 	} 
 
 body { 
-	background: url("http://liubai.qiniudn.com/zhi.jpg"); 
+	background: #CCE8CF; 
 	margin: 0; 
 	height: 100%; 
 	color: {{ site.colors.secondary }};
