@@ -10,10 +10,10 @@ permalink: /blog/
         <div class="col-lg-9">
             {% for post in site.categories['blog'] %}
                 <! -- Blog Post --> 
-                <a href="{{ post.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ post.title }}</h3></a>
+                <a href="{{ post.url | prepend: site.baseurl }}"" target="_blank"><h3 class="ctitle">{{ post.title }}</h3></a>
                 <p><csmall>{{ post.date | date: "%b %-d, %Y" }}. | By: {{ post.author }}</csmall>
 				{{ post.excerpt }}
-				<a href="{{ post.url | prepend: site.baseurl }}">文</a></p>				
+				<a href="{{ post.url | prepend: site.baseurl }}"" target="_blank">文</a></p>				
                 <div class="hline"></div>
                 <div class="spacing"></div>
             {% endfor %}
