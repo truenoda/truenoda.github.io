@@ -42,7 +42,7 @@ p {
 	font-weight: 100;
 	font-size: 17px; 
 	line-height: 30px;              /*行高选择30比较好  不显得紧凑*/
-	color: #FFF;   /*more info字体   这里原来的颜色是浅色。。。。。。。。。。。MD*/
+	color: #000;   /*more info字体   这里原来的颜色是浅色。。。。。。。。。。。MD*/
 	margin-top: 0px; 
 }
 
