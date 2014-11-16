@@ -32,7 +32,7 @@ thumb: thumb04.jpg
 
 <img src="http://liubai.qiniudn.com/ddd.jpg" style="width:500px;height=248px">
 
-我问你见过思念放过谁呢 不管你是累犯或是从无前科</br>
+我问你见过思念放过谁呢 不管你是累犯或是从无前科<br>
 我认识的只有那合久的分了 没见过分久的合<br>
  
 **岁月你别催 该来的我不推该还的还 该给的我给** <br>
