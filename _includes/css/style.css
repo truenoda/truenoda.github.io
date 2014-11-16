@@ -75,8 +75,8 @@ a:focus {
 	border: 0px solid #CCC;
 	margin-bottom: 0px;
 	background-color: transparent }
-  #map-container { height: 400px }
-  @media all and (max-width: 768px) {
+#map-container { height: 400px }
+@media all and (max-width: 768px) {
 #map-outer  { height: 650px }
 }
 
