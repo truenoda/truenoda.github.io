@@ -39,7 +39,7 @@ p {
 	padding: 0; 
 	margin-bottom: 0px; 
 	font-family: 'Lato', sans-serif;
-	font-weight: 400;
+	font-weight: 100;
 	font-size: 17px; 
 	line-height: 30px;              /*行高选择30比较好  不显得紧凑*/
 	color: {{ site.colors.secondary }};   /*more info字体*/
