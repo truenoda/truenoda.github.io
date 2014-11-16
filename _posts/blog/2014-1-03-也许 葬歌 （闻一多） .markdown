@@ -13,7 +13,7 @@ thumb: thumb04.jpg
 
 也许你真是哭得太累
 
-也许，也许你要睡一睡<br>
+也许，也许你要睡一睡<br><br>
 
 
 那 叫夜鹰不要咳嗽
@@ -26,7 +26,7 @@ thumb: thumb04.jpg
 
 无论谁都不能惊醒你
 
-撑一伞松荫庇护你睡<br>
+撑一伞松荫庇护你睡<br><br>
 
 <!--more-->
 
@@ -36,7 +36,7 @@ thumb: thumb04.jpg
 
 也许 你听这般的音乐
 
-比那咒骂的人声更美<br>
+比那咒骂的人声更美<br><br>
 
 <img src="http://liubai.qiniudn.com/yexu1.jpg" style="width:500px;height=248px">
 
