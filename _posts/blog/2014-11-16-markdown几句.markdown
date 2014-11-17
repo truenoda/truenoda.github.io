@@ -41,14 +41,14 @@ thumb: thumb05.jpg
 
 于是试了俩个推荐的比较多的，markpad和markdownpad2，第一个谈不上使用，
 你们看看图就知道了。<br><br>
-<img src="http://liubai.qiniudn.com/markpad你TM在逗我.png" style="width:500px;height=248px"><br><br>
+<img src="http://liubai.qiniudn.com/markpad你TM在逗我.png" style="width:800px;height=400px"><br><br>
 
 这TM也能出来发行？？？
 
 于是我用了markdownpad2
 用的比较舒服，而且越用越喜欢，我现在就是在用这个编辑器写这篇博客，破解之后，可以使用github 风格的markdown，所见即所得，图片也可以在右侧看到，上方工具栏，可以使用引用，大小标题，加粗，用着还是很舒服的。而且有中文支持。
 
-<img src="http://liubai.qiniudn.com/这才是对中文呢支持.png" style="width:500px;height=248px"><br><br>
+<img src="http://liubai.qiniudn.com/这才是对中文呢支持.png" style="width:800px;height=400px"><br><br>
 <br><br>
 - 注意的地方，要是加入代码，代码要和上面隔一行，否则代码部分不会框选出来
 - 尽量适用github的markdown处理，避免解析失败
