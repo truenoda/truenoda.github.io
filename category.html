@@ -19,8 +19,7 @@ permalink: /category/
                                 <a href="{{ post.url  | prepend: site.baseurl }}"" target="_blank"></a>
                                 <p><a href="{{ post.url }}"" target="_blank">{{ post.title }}</a></p>
                                 <em>Posted on {{ post.date | date_to_string }}</em>
-                            </li>
-               
+                            </li>           
             {% endfor %}
                     </ul>
         {% endunless %}{% endfor %}

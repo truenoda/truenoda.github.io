@@ -1,0 +1,334 @@
+---
+layout: post
+title:  "网站建立的过程 "
+date:   2014-11-16
+author: me
+categories: 
+- blog
+- 网站
+thumb: thumb05.jpg
+---
+
+几个功能的实现 google map bgmusic 缓慢滚动页面
+
+<!--more-->
+
+## google map ##
+
+在header.html中加入初始化map的函数      <!DOCTYPE html>是为了强制html5渲染页面
+
+
+    <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+
+    <script>	
+ 
+      function init_map() {
+		var var_location = new google.maps.LatLng(51.774638,-177.24678);
+ 
+        var var_mapoptions = {
+        center: var_location,
+        zoom: 2            <!--缩放级别正好到可以看到中国-->
+        };
+ 
+		var var_marker = new google.maps.Marker({
+		position: var_location,
+		map: var_map,
+		title:"Venice"});
+ 
+        var var_map = new google.maps.Map(document.getElementById("map-container"),
+            var_mapoptions);
+ 
+        var_marker.setMap(var_map);	
+	
+ 
+      }
+ 
+      google.maps.event.addDomListener(window, 'load', init_map);
+ 
+    </script>
+
+然后在style.css中加入css段
+
+    #map-container { height: 300px }
+    #map-outer {  height: 440px;
+	top: 45px;
+	padding: 0px;
+	border: 0px solid #CCC;
+	margin-bottom: 0px;
+	background-color: transparent }
+    #map-container { height: 400px }
+    @media all and (max-width: 768px) {
+    #map-outer  { height: 650px }
+    }
+
+在html我的是index.html
+
+	  <div class="container">
+	  <div class="row">
+		  <div id="map-outer" class="col-md-12">
+			  <div id="address" class="col-md-4">
+				<h2>Our Location</h2>
+				<address>
+				<strong>相传地图这里就是《倚天屠龙记》里冰火岛</strong><br>
+					不知道为什么 竟然很向往那种和相爱的人隐世的生活<br>
+					<br>
+					<br>
+					<br>
+					<abbr></abbr>
+			   </address>
+			  </div>
+			<div id="map-container" class="col-md-8"></div>
+		  </div><!-- /map-outer -->
+	  </div> <!-- /row -->
+	</div><!-- /container -->
+
+## 点击滚动 ##
+在html中加入层
+
+	<div id="pro" class="box">
+		<a href="#service" class="page-scroll btn btn-xl fa fa-angle-down"></a>
+	</div>   
+
+
+style.css中加入
+
+	.btn-xl {
+    padding: 20px 40px;
+    border-color: #{{ site.color.primary }};
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #{{ site.color.primary }};
+	}
+	.btn-xl:hover,
+	.btn-xl:focus,
+	.btn-xl:active,
+	.btn-xl.active,
+	.open .dropdown-toggle.btn-xl {
+    border-color: #{{ site.color.primary }};
+    color: #fff;
+    background-color: #{{ site.color.secondary }};
+	}
+	
+	.btn-xl:active,
+	.btn-xl.active,
+	.open .dropdown-toggle.btn-xl {
+    background-image: none;
+	}
+	
+	.btn-xl.disabled,
+	.btn-xl[disabled],
+	fieldset[disabled] .btn-xl,
+	.btn-xl.disabled:hover,
+	.btn-xl[disabled]:hover,
+	fieldset[disabled] .btn-xl:hover,
+	.btn-xl.disabled:focus,
+	.btn-xl[disabled]:focus,
+	fieldset[disabled] .btn-xl:focus,
+	.btn-xl.disabled:active,
+	.btn-xl[disabled]:active,
+	fieldset[disabled] .btn-xl:active,
+	.btn-xl.disabled.active,
+	.btn-xl[disabled].active,
+	fieldset[disabled] .btn-xl.active {
+    border-color: #{{ site.color.primary }};
+    background-color: #{{ site.color.primary }};
+	}
+	.btn-xl .badge {
+    color: #{{ site.color.primary }};
+    background-color: #fff;
+	}	
+
+
+在每一个滚动页面下加入
+
+	.btn:focus,
+	.btn:active,
+	.btn.active,
+	.btn:active:focus {
+	    outline: 0;
+	}
+
+header.html加入js
+
+	<script type="text/javascript" src="http://libs.useso.com/js/jquery/1.7.2/jquery.min.js"></script>
+	<script type="text/javascript" src="/assets/js/jquery.scrollTo.js"></script>
+
+js.html中加入
+
+	<script src="{{ "/js/jquery-1.11.0.js" | prepend: site.baseurl }}"></script>
+	<!-- Bootstrap Core JavaScript -->
+       <script src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
+	<!-- Custom Theme JavaScript -->
+       <script src="{{ "/js/agency.js" | prepend: site.baseurl }}"></script>
+	<!-- Plugin JavaScript -->
+		<script src="{{ "/js/jquery.easing.min.js" | prepend: site.baseurl }}"></script>
+		<script src="{{ "/js/classie.js" | prepend: site.baseurl }}"></script>
+		<script src="{{ "/js/cbpAnimatedHeader.js" | prepend: site.baseurl }}"></script>
+
+
+## blog左右规则 ##
+我的最左侧目录是使用了13这个层
+
+	 .col-lg-13{
+		left: 0px;
+	   	width: 43px;     宽度是为了和他右侧的层结合在一起  
+		position: fixed;  固定
+		float: left;
+	 }
+
+左侧第二个层是4
+	
+	  .col-lg-4 {
+		background: url(http://liubai.qiniudn.com/side4.jpg);
+		padding-top:50px;
+		left: 43px;                    与上面对应
+		width: 24%;
+		position: fixed;
+		height: 100%;
+		-moz-box-shadow: 2px 2px 10px #909090;/*firefox*/
+		-webkit-box-shadow: 2px 2px 10px #909090;/*safari或chrome*/
+		box-shadow:2px 2px 10px #909090;/*opera或ie9*/
+	  }
+
+以上都是在bootstrap.css中
+
+新写了一个navleft.html是关于最左侧的
+
+	<div class="col-lg-13">
+		<div class="navleft">
+			<div class="navleft1">
+				<p><a href="/" class="fa fa-home"></a></p>
+			</div>
+			<div class="navleft2">
+				<p><a href="/feed.xml" class="fa fa-rss"" target="_blank"></a></p>
+			</div>
+			<div class="navleft3">
+				<p><a href="http://weibo.com/1882819105"" target="_blank" class="fa fa-weibo"></a></p>	
+			</div>	
+			<div class="navleft4">
+				<p><a href="mailto:tracyliubai@gmail.com" class="fa fa-envelope"></a></p>
+			</div>
+		</div>
+	</div>
+
+对应的style.css
+
+	.navleft {
+		background: #1D1D1D;
+		height: 1300px;
+	}
+	.navleft p{
+		font-size:25px;
+	}
+	.navleft1 {
+		margin-left:10px;
+	}
+	.navleft2 {
+		margin-top: 20px;
+		margin-left:10px;
+	}
+	.navleft3 {
+		margin-top: 520px;
+		margin-left: 7px;
+	}
+	.navleft4 {
+		margin-top: 10px;   /*这里的margin是相对于上一个的navleft3的*/
+		margin-left: 7px;
+	}
+
+
+
+由于如果直接写img的话，所图片都会旋转，我于是单独为他加了一个image 的class
+
+	.image img{
+		-webkit-transition: 0.4s;
+		-webkit-transition: -webkit-transform 0.4s ease-out;
+		transition: transform 0.4s ease-out;
+		-moz-transition: -moz-transform 0.4s ease-out;
+		}  
+	.image img:hover{
+		transform: rotateZ(360deg) scale(0.4);
+		-webkit-transform: rotateZ(360deg) scale(0.4);
+		-moz-transform: rotateZ(360deg) scale(0.4);
+		}
+		
+以上部分等价于在首页写
+
+	<style>
+	img{
+	    -webkit-transition: 0.4s;
+	    -webkit-transition: -webkit-transform 0.4s ease-out;
+	    transition: transform 0.4s ease-out;
+	    -moz-transition: -moz-transform 0.4s ease-out;
+	}
+	  
+	img:hover{
+	    transform: rotateZ(360deg);
+	    -webkit-transform: rotateZ(360deg);
+	    -moz-transform: rotateZ(360deg);
+	}
+	</style>
+	 
+	</head>
+	<body>
+	    <img src="http://ui.narutom.com/imgd/lufei.jpg">
+	</body>
+	</html>
+
+
+
+## 背景音乐 ##
+在header.html body中加入
+
+	<object data="http://liubai.qiniudn.com/johannpachelbel.mp3" type="application/x-mplayer2" width="0" height="0">
+	<param name="src" value=http://liubai.qiniudn.com/johannpachelbel.mp3">
+	<param name="autostart" value="1">
+	<param name="playcount" value="infinite">
+	</object>					
+	<bgsound src="http://liubai.qiniudn.com/johannpachelbel.mp3" />
+
+bgsound是为适用IE。
+
+## 阴影效果 ##
+.col-lg-4{}
+
+	 -moz-box-shadow: 2px 2px 10px #909090;/*firefox*/
+	 -webkit-box-shadow: 2px 2px 10px #909090;/*safari或chrome*/
+	 box-shadow:2px 2px 10px #909090;/*opera或ie9*/
+## 新窗口打开 ##
+
+	<a href="链接的页面" target="_blank">新窗口打开</a><br /> 
+	<a href="链接的页面" target="_parent">原窗口打开</a>
+a是指/a>标签，a:hover指的是鼠标经过它时候的效果，因为浏览器解析超链接的时候默认是蓝色有下划线的，所以要用css来改成你想要的效果。
+## navbar透明 ##
+
+	.navbar-default {
+		background-color: transparent;
+		border-color: transparent;
+	}
+
+## padding和margin ##
+
+padding属性的书写格式总共有以下几种：
+
+    padding:10px;                意思是上下左右值全是10px
+    padding:5px   10px;       意思是上下为5px，左右为10px;
+    padding:1px  2px  3px   4px;      这个写法意思是：上为1px，右为2px，下为3px，左为4px
+    padding:5px  10px   7px;           这种写法意思是：上为5px，左右为10px，下为7px
+  （注意：padding后面4个值定义的顺序分别为：上  右  下  左）
+而padding-top或者padding-bottom这种写法，只是单方面的定义了一个方向的值，这样写会增加CSS代码的长度，增加CSS样式的代码量，拖慢页面的加载速度。
+
+padding是指层的内部，而margin指层外部。
+
+<img src="http://liubai.qiniudn.com/margin和padding的区别.png"style="width:500px;height=248px">
+<img src="http://liubai.qiniudn.com/margin1.png"style="width:500px;height=248px">
+
+
+## gmail邮箱发送邮件按钮 ##
+
+<img src="http://liubai.qiniudn.com/邮箱.png"style="width:500px;height=248px">
+
