@@ -241,7 +241,7 @@ js.html中加入
 	}
 
 
-
+## 鼠标经过旋转360并缩小 ##
 由于如果直接写img的话，所图片都会旋转，我于是单独为他加了一个image 的class
 
 	.image img{
@@ -275,7 +275,7 @@ js.html中加入
 	 
 	</head>
 	<body>
-	    <img src="http://ui.narutom.com/imgd/lufei.jpg">
+	    <img src="http://**.jpg">
 	</body>
 	</html>
 
@@ -294,16 +294,20 @@ js.html中加入
 bgsound是为适用IE。
 
 ## 阴影效果 ##
+
 .col-lg-4{}
 
 	 -moz-box-shadow: 2px 2px 10px #909090;/*firefox*/
 	 -webkit-box-shadow: 2px 2px 10px #909090;/*safari或chrome*/
 	 box-shadow:2px 2px 10px #909090;/*opera或ie9*/
+
 ## 新窗口打开 ##
 
 	<a href="链接的页面" target="_blank">新窗口打开</a><br /> 
 	<a href="链接的页面" target="_parent">原窗口打开</a>
+
 a是指/a>标签，a:hover指的是鼠标经过它时候的效果，因为浏览器解析超链接的时候默认是蓝色有下划线的，所以要用css来改成你想要的效果。
+
 ## navbar透明 ##
 
 	.navbar-default {
