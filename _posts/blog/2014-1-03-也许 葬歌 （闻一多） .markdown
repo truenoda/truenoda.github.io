@@ -9,7 +9,7 @@ categories:
 - 散文流
 thumb: thumb04.jpg
 ---
-<img src="http://liubai.qiniudn.com/yexu.jpg" style="width:300px;height=248px">
+<img src="http://liubai.qiniudn.com/yexu3.jpg" style="width:300px;height=248px">
 
 也许你真是哭得太累
 
