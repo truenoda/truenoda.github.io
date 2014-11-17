@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "网站建立的过程 "
+title:  "网站建立几个功能的实现 "
 date:   2014-11-16
 author: me
 categories: 

@@ -1287,7 +1287,7 @@ pre code {
   }
   .col-lg-4 {
 	background: url(http://liubai.qiniudn.com/side4.jpg);
-	padding-top:50px;
+	padding-top:0px;
     left: 43px;
     width: 24%;
 	position: fixed;
