@@ -300,13 +300,14 @@ bgsound是为适用IE。
 	 -moz-box-shadow: 2px 2px 10px #909090;/*firefox*/
 	 -webkit-box-shadow: 2px 2px 10px #909090;/*safari或chrome*/
 	 box-shadow:2px 2px 10px #909090;/*opera或ie9*/
-
+<br>
 ## 新窗口打开 ##
 
 	<a href="链接的页面" target="_blank">新窗口打开</a><br /> 
 	<a href="链接的页面" target="_parent">原窗口打开</a>
 
-a是指/a>标签，a:hover指的是鼠标经过它时候的效果，因为浏览器解析超链接的时候默认是蓝色有下划线的，所以要用css来改成你想要的效果。
+<br>
+a是指/a>标签，a:hover指的是鼠标经过它时候的效果，因为浏览器解析超链接的时候默认是蓝色有下划线的，所以要用css来改成你想要的效果。<br>
 
 ## navbar透明 ##
 
@@ -314,7 +315,7 @@ a是指/a>标签，a:hover指的是鼠标经过它时候的效果，因为浏览
 		background-color: transparent;
 		border-color: transparent;
 	}
-
+<br>
 ## padding和margin ##
 
 padding属性的书写格式总共有以下几种：
