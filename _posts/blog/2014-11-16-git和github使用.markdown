@@ -9,9 +9,6 @@ categories:
 thumb: thumb05.jpg
 ---
 
-## github和git使用 ##
-
-
 安装git bash什么的教程不在此说明了。
 git bash给我的感觉就是模拟一个linux的终端，提供了一些简单的linux命令，如果你有linux基础，上手so easy。
 <!--more-->
