@@ -49,4 +49,7 @@ git bash的使用遇到过一些问题，解决起来费事，于是我选择了
 本地修改后
 tortoisegit到master分支，立即见效 
 
+出现一次tortoisegit问题，不断的显示Disconnected: No supported authentication methods available (server sent: publickey)
+试了改动settings里面的网络 client位置改成 Git/bin/ssh.exe  没有效果 于是删除了两个rsa文件（我是有两个账户的），然后重新生成key上传之后再去使用git和tortoisegit成功
+
 **注意第一个显示的成功，不是真正成功，而是push了一个请求或者是给网络服务端一个文件列表  。选择推送，才是真正的传送文件。**
