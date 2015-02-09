@@ -359,39 +359,3 @@ a:focus {
   #portfolio .items li { width: 100% }
   #testimonials .quote { padding: 0 30px }
 }
-
-.mtb2 {
-	margin-top: 0px;
-	margin-bottom: 80px;
-}
-
-.navleft {
-	background: #1D1D1D;
-	height: 1300px;
-}
-.navleft p{
-	font-size:25px;
-}
-
-.navleft1 {
-	margin-left:10px;
-}
-.navleft2 {
-	margin-top: 20px;
-	margin-left:10px;
-}
-
-.navleft3 {
-	margin-top: 520px;
-	margin-left: 7px;
-}
-.navleft4 {
-	margin-top: 10px;   /*这里的margin是相对于上一个的navleft3的*/
-	margin-left: 7px;
-}
-.col-lg-4 h4{
-	margin-left: 30px
-}		
-.col-lg-4 p{
-	margin-left: 20px
-}				
