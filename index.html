@@ -1,46 +1,171 @@
----
-layout: index
-permalink: /
----
-
-<div id="service">
-    <div class="container">
-        <div class="row centered">
-            <div class="col-md-4">
-                <i href="http://liubai.info/blog/" class="fa fa-linux"></i>
-                <h4>保守的Linuxer 爱折腾 但不爱被bug折腾</h4>
-                <p></p>
-				<p><br/><a></a></p>
-            </div>	 				
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Merlin HTML/CSS template">
+    <meta name="author" content="Hasan Alibegic">
+    <link rel="shortcut icon" href="assets/ico/favicon.ico">
+    <title>流白</title>
+    <link rel="stylesheet" href="http://fonts.useso.com/css?family=Source+Sans+Pro:300,600">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="loader">
+      <div class="fading-line"></div>
+    </div>
+    <section id="home" class="page">
+      <div class="container">
+        <div class="content cover text-center">
+          <div class="row">
+            <div class="col-lg-12">
+              <h1 class="animated hiding" data-animation="fadeInDown" data-delay="300">We Are Merlin</h1>
+              <a class="btn btn-blue nav-external animated hiding" data-animation="fadeIn" data-delay="900" href="#services">Find more</a>
+              <h3 class="animated hiding" data-animation="fadeIn" data-delay="600">We Have Made A Lot Of Friends.</h3>
+            </div>
+          </div>
         </div>
-    </div><! --/container -->
-	<div id="pro" class="box">
-		<a href="#photo" class="page-scroll btn btn-xl fa fa-angle-down"></a>                <!--service跳到portfoliowrap   然后是container mtb 然后twrap-->
-	</div>
-</div><! --/service -->
-
-{% include NewFile.html %}
-
-<div id="article">
-	  <div class="container">
-	  <div class="row">
-		  <div id="map-outer" class="col-md-12">
-			  <div id="address" class="col-md-4">
-				<h2>Our Location</h2>
-				<address>
-				<strong>相传地图这里就是《倚天屠龙记》里冰火岛</strong><br>
-					不知道为什么 竟然很向往那种和相爱的人隐世的生活<br>
-					<br>
-					<br>
-					<br>
-					<abbr></abbr>
-			   </address>
-			  </div>
-			<div id="map-container" class="col-md-8"></div>
-		  </div><!-- /map-outer -->
-	  </div> <!-- /row -->
-	</div><!-- /container -->
-	<div id="pro" class="box">
-		<a href="#twrap" class="page-scroll btn btn-xl fa fa-angle-down"></a>            
-	</div>
-</div>         
+      </div>
+    </section>
+    <div id="navbar-top">
+      <nav class="navbar navbar-default navbar-static" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand nav-external" href="#home">Merlin</a>
+          </div>
+          <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active">
+                <a href="#home">Home</a>
+              </li>
+              <li>
+                <a href="#work">Work</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <section id="work" class="page">
+      <div class="container">
+        <div class="content text-center">
+          <div class="heading">
+            <h2>This is how we do it.</h2>
+            <div class="border"></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, alias enim placeat earum quos ab.</p>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div id="portfolio">
+                <ul class="filters list-inline">
+                  <li>
+                    <a class="active" data-filter="*" href="#">All</a>
+                  </li>
+                  <li>
+                    <a data-filter=".photography" href="#">Photography</a>
+                  </li>
+                  <li>
+                    <a data-filter=".branding" href="#">Branding</a>
+                  </li>
+                  <li>
+                    <a data-filter=".web" href="#">Web</a>
+                  </li>
+                </ul>
+                <ul class="items list-unstyled clearfix animated hiding" data-animation="fadeInRight">
+                  <li class="item branding">
+                    <a href="#">
+                      <img src="assets/img/work/1.jpg" alt="">
+                      <div class="overlay">
+                        <span>Etiam porta</span>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="item photography">
+                    <a href="#">
+                      <img src="assets/img/work/2.jpg" alt="">
+                      <div class="overlay">
+                        <span>Lorem ipsum</span>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="item branding">
+                    <a href="#">
+                      <img src="assets/img/work/3.jpg" alt="">
+                      <div class="overlay">
+                        <span>Vivamus quis</span>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="item photography">
+                    <a href="#">
+                      <img src="assets/img/work/4.jpg" alt="">
+                      <div class="overlay">
+                        <span>Donec ac tellus</span>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="item photography">
+                    <a href="#">
+                      <img src="assets/img/work/5.jpg" alt="">
+                      <div class="overlay">
+                        <span>Etiam volutpat</span>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="item web">
+                    <a href="#">
+                      <img src="assets/img/work/6.jpg" alt="">
+                      <div class="overlay">
+                        <span>Donec congue </span>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="item photography">
+                    <a href="#">
+                      <img src="assets/img/work/7.jpg" alt="">
+                      <div class="overlay">
+                        <span>Nullam a ullamcorper diam</span>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="item web">
+                    <a href="#">
+                      <img src="assets/img/work/8.jpg" alt="">
+                      <div class="overlay">
+                        <span>Etiam consequat</span>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/imagesloaded.min.js"></script>
+    <script src="assets/js/jquery.scrollTo.min.js"></script>
+    <script src="assets/js/jquery.nav.min.js"></script>
+    <script src="assets/js/jquery.appear.min.js"></script>
+    <script src="assets/js/twitterFetcher.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <!-- Google Analytics: change UA-25089888-9 to be your site's ID. -->
+  </body>
+</html>
