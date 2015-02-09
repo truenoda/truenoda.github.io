@@ -105,6 +105,10 @@ a:focus {
   font-weight: 600;
   text-transform: uppercase;
 }
+ll{
+  font-weight: 600;
+  font-size: 17px;
+}
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
