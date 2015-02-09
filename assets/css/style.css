@@ -359,6 +359,12 @@ a:focus {
   #portfolio .items li { width: 100% }
   #testimonials .quote { padding: 0 30px }
 }
+
+.mtb2 {
+	margin-top: 0px;
+	margin-bottom: 80px;
+}
+
 .navleft {
 	background: #1D1D1D;
 	height: 1300px;
