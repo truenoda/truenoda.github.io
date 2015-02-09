@@ -91,7 +91,7 @@ a:focus {
 #navbar-top { min-height: 51px }
 .navbar-default {
   margin-bottom: 0;
-  background-color: #fff;
+  background-color: transparent;
   border-top: 0;
   -webkit-border-radius: 0;
      -moz-border-radius: 0;

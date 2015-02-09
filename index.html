@@ -157,26 +157,31 @@
         </div>
       </div>
     </section>
-<div id="twrap">
-    <div id="twrapback"></div>
-    <div class="container centered">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-			    <i><a href="mailto:tracyliubai@gmail.com" class="fa fa-envelope"></a></i> 
-            <h4><br/>{{ site.testimonial.author }}</h4>
-            <h4>{{ site.testimonial.position }}</h4>
+	    <section id="contact" class="page">
+      <div class="container">
+        <div class="content cover text-center">
+          <div class="heading">
+            <h2>流白.</h2>
+            <div class="border"></div>
+            <p>Maybe you can find me</p>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 animated hiding" data-animation="fadeInRight" data-delay="600">
+              <i class="fa fa-weibo fa-3x"></i>
+			  <a href="http://weibo.com/1882819105">weibo</a>
             </div>
-			<div class="col-lg-12">
-                <p>Copyright © 2014 流白  All rights reserved</p>
-                <p>
-                    {% for network in site.social %}
-                        <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-{{ network.title }}"></i></a>
-                    {% endfor %}
-                </p>
+            <div class="col-lg-4 animated hiding" data-animation="fadeInDown" data-delay="300">
+              <i class="fa fa-twitter fa-3x"></i>
+              <a href="https://twitter.com/SteveJobsDA">twitter</a>
             </div>
-        </div><! --/row -->
-    </div><! --/container -->
-</div><! --/twrap -->
+            <div class="col-lg-4 animated hiding" data-animation="fadeInLeft" data-delay="600">
+              <i class="fa fa-envelope fa-3x"></i>
+              <a href="mailto:tracyliubai@gmail.com">gmail</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
@@ -185,8 +190,8 @@
     <script src="assets/js/jquery.scrollTo.min.js"></script>
     <script src="assets/js/jquery.nav.min.js"></script>
     <script src="assets/js/jquery.appear.min.js"></script>
-    <script src="assets/js/twitterFetcher.min.js"></script>
+    
     <script src="assets/js/script.js"></script>
-    <!-- Google Analytics: change UA-25089888-9 to be your site's ID. -->
+    <!-- Google Analytics: change UA-25089888-9 to be your site's ID.    <script src="assets/js/twitterFetcher.min.js"></script>-->
   </body>
 </html>
