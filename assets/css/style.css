@@ -325,7 +325,7 @@ background-color: #F5F5F5; }
 #contact,
 #contact a,
 #contact a:hover,
-#contact a:focus { color: #fff }
+#contact a:focus { color: #fff;padding-bottom: 28px; }
 #contact .heading .border { background-color: #fff }
 #contact a { display: block }
 #contact i { margin: 60px 0 15px }
