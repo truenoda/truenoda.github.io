@@ -325,9 +325,9 @@ background-color: #F5F5F5; }
 #contact,
 #contact a,
 #contact a:hover,
-#contact a:focus { color: transparent;padding-bottom: 46px; }
+#contact a:focus { color: #fff;padding-bottom: 46px; }
 #contact .heading .border { background-color: transparent }
-#contact a { display: block }
+#contact a { display: block;font-family: inherit; }
 #contact i { margin: 60px 0 15px;color: #00B3FE;}
 #contact p { font-family: "楷体"; font-size: 24px;color: azure;}
 #footer {
