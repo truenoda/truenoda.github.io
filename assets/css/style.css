@@ -88,7 +88,7 @@ a:focus {
   background-repeat: no-repeat;
   background-position: center center;
 }
-#navbar-top { min-height: 51px }
+#navbar-top { min-height: 0px }
 .navbar-default {
   margin-bottom: 0;
   background-color: transparent;
@@ -128,7 +128,10 @@ ll{
      -moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.3);
           box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.3);
 }
-.page { overflow: hidden }
+.page { 
+  overflow: hidden 
+  background-color: #F5F5F5
+  }
 .page .content { padding: 60px 0 }
 .page .content.cover { padding: 240px 0 }
 .page .heading h2 {
