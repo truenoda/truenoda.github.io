@@ -169,7 +169,6 @@ background-color: #F5F5F5; }
 }
 #services .service i { margin-top: 60px }
 #services .service:hover i { color: #71be3c }
-#work {height:560px;}
 #work .heading p { margin-bottom: 60px }
 #portfolio { width: 100% }
 #portfolio .filters { margin-bottom: 20px }
