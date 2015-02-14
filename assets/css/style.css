@@ -139,7 +139,7 @@ background-color: #F5F5F5; }
 }
 .page .border {
   width: 80px;
-  height: 44px;
+  height: 74px;
   margin: 0 auto;
   background-color: #71be3c;
 }
@@ -169,6 +169,7 @@ background-color: #F5F5F5; }
 }
 #services .service i { margin-top: 60px }
 #services .service:hover i { color: #71be3c }
+#work {height:560px;}
 #work .heading p { margin-bottom: 60px }
 #portfolio { width: 100% }
 #portfolio .filters { margin-bottom: 20px }
@@ -326,9 +327,9 @@ background-color: #F5F5F5; }
 #contact a,
 #contact a:hover,
 #contact a:focus { color: #fff;padding-bottom: 46px; }
-#contact .heading .border { background-color: #fff }
+#contact .heading .border { background-color: transparent }
 #contact a { display: block }
-#contact i { margin: 60px 0 15px }
+#contact i { margin: 60px 0 15px;color: #00B3FE;}
 #contact p { font-family: "楷体"; font-size: 24px;}
 #footer {
   padding: 40px 0;
