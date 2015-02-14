@@ -128,10 +128,7 @@ ll{
      -moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.3);
           box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.3);
 }
-.page { 
-  overflow: hidden 
-  background-color: #F5F5F5;
-  }
+.page { overflow: hidden }
 .page .content { padding: 60px 0 }
 .page .content.cover { padding: 240px 0 }
 .page .heading h2 {
