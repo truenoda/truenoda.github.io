@@ -130,7 +130,7 @@ ll{
 }
 .page { 
   overflow: hidden 
-  background-color: #F5F5F5
+  background-color: #F5F5F5;
   }
 .page .content { padding: 60px 0 }
 .page .content.cover { padding: 240px 0 }
