@@ -329,7 +329,7 @@ background-color: #F5F5F5; }
 #contact .heading .border { background-color: #fff }
 #contact a { display: block }
 #contact i { margin: 60px 0 15px }
-#contact p { font-family: "楷体";}
+#contact p { font-family: "楷体"; font-size: 24px;}
 #footer {
   padding: 40px 0;
   color: #ccc;
