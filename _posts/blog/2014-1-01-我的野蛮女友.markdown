@@ -6,7 +6,7 @@ author: me
 categories:
 - blog
 - 清新流
-thumb: thumb02.jpg
+thumb: thumb02.png
 ---
 
 有人说，这部电影叫做我的野蛮女友，不如叫做《I believe》

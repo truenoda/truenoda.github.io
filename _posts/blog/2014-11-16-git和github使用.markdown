@@ -6,7 +6,7 @@ author: me
 categories: 
 - blog
 - 网站
-thumb: thumb05.jpg
+thumb: thumb03.png
 ---
 
 安装git bash什么的教程不在此说明了。

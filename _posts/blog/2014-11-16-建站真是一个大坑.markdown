@@ -6,7 +6,7 @@ author: me
 categories: 
 - blog
 - 网站
-thumb: thumb05.jpg
+thumb: thumb03.png
 ---
 
 从4号开始买域名到折腾，每天有时间就开始做，界面的设计什么的，虽然是拿了别人的模板，但是到头来界面已经和原来的丝毫没有相似的地方了。。。。这是真的

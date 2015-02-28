@@ -6,7 +6,7 @@ author: me
 categories: 
 - blog
 - 散文流
-thumb: thumb01.jpg
+thumb: thumb01.png
 ---
 
 <img src="http://liubai.qiniudn.com/阳关雪.jpg" style="width:350px;height=189px">
