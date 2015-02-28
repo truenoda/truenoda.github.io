@@ -1,0 +1,124 @@
+---
+layout: post
+title:  "systemd 为什么会有那么大的争议？ "
+date:   2014-10-10
+author: me
+categories: 
+- blog
+- Linux流
+thumb: thumb06.png
+---
+
+几年前systemd就引起不少骂战。
+
+<img src="http://pic3.zhimg.com/7edd1faba82d2a9ee412cd5f7f7e155a_b.jpg" style="width:200px;height=248px">
+
+systemd作为inid程序，启动时第一个启动的（daemon），关闭时最后一个结束的守护进程。
+很多人把他跟启动速度与关机速度联系到一起，并且对他的优化大加赞赏。
+而Lennart Poettering的博文中首先强调的就是启动速度.
+<!--more-->
+
+
+> As mentioned, the central responsibility of an init system is to bring up userspace. And a good init system does that fast. Unfortunately, the traditional SysV init system was not particularly fast.
+
+For a fast and efficient boot-up two things are crucial:
+
+
+
+- To start less.
+-  And to start more in parallel.
+
+据说过去在fedora13上开机速度测试，upstart 27秒，而systemd 24秒，我的openrc现在启动gentoo大概17多秒左右，没有确切计时过。
+
+启动速度的确是快了一点，但是这仅仅是表面，这东西是否真的那么完美吗？
+
+<br><br>
+
+国外一个网友提到
+> For servers, boot time is even less of an issue; it takes longer to initialize all the super-special RAID cards and networking hardware than it does to boot the OS.
+
+尽管启动系统快，但是服务器初始化super-special RAID 还有网络硬件却需要更长的时间！
+
+除此之外，我比较倾向于系统的稳定，所以太激进的东西很不适应，systemd从2011年进入gentoo开始，openrc和systemd共存引起的问题就引发了讨论，Bug 318365。很多gentoo用户不但是桌面环境的使用者，还有不少server user，他们并不希望仅仅提高一点启动速度而牺牲掉服务器的稳定性。
+update world后更是会出现一系列的Block。
+
+<br><br>
+
+google搜索failed to get d-bus connection一类的问题一大堆，刚刚开始时systemd关机时还会导致umount卡死的情况，这个在ubuntu live cd上好像遇到过多次，也不知道现在还有没有发生。
+
+刚刚在ubuntu的wiki上看到的：
+
+<img src="http://pic1.zhimg.com/47fe6b43c7f9472ef7f0b2edbf2e1160_r.jpg" style="width:500px;height=248px">
+
+
+也就是说systemd有一定概率会出现kernel panic（对于这个问题有多少种可能？？？）。
+
+systemd和udev的关系gentoo官方给出的wiki这样说道systemd contains udev and, then, you can safely let sys-fs/udev be removed as systemd will be the provider for virtual/udev. （这说明udev已经被吞并）。
+
+仅仅是replace这一个daemon吗？你想的太简单了。
+
+<img src="http://pic1.zhimg.com/51a7f212d6acd2e471d77df852402140_r.jpg" style="width:500px;height=248px">
+
+
+除了上图所显示的，Gnome和systemd的关系也是有些暧昧不明，systemd短短的时间内大肆攻城略地，逐渐发展成现在这样，可能还有很多进程被合并进去暂时没有想到太多。
+
+除此之外，systemd还设置API锁定(DBus接口提供的systemd成为必要的API,用户级程序依赖)。
+
+对于追求自由的linux用户一系列绑定和锁定可想而知会多么令人抓狂，以至于很多geek发文shit fuk到处都是！！！
+
+更加为linux用户深恶痛绝的是
+
+The Unix way: with simple self-contained programs that do one thing and do it well.
+The systemd way: Take advantage of special properties of pid 1 to the maximum extent possible.
+1. unix的哲学是做一件事，并且把它做好
+2. 而systemd则是把pid 1扩张到最大化。
+
+
+Lennart Poettering曾经发过一篇博文Lennart Poettering: The Biggest Myths
+
+<img src="http://pic1.zhimg.com/1121bb721ddd8b0f9b1a0eaf7b3eabdc_r.jpg" style="width:500px;height=248px">
+
+其中说到
+
+误读11.systemd时复杂的，“当然是有道理的。现代计算机是复杂的野兽,运行操作系统,它将因此要复杂。” “此外,构建一个基于systemd简单的操作系统将涉及比传统的Linux更少的软件包。”这句话说得相当有深意，不难看出systemd的野心。
+
+误读12.systemd是臃肿的，“臃肿有很多理解”后面又是绕来绕去告诉你使用我systemd的是不臃肿的（尤其是和传统linux对比）。
+
+被systemd消化的还有一个叫做inetd的internet service daemon，inetd的wiki里面有个非常有意思的地方：
+
+<img src="http://pic3.zhimg.com/77fd287dab8b0a987500f8162b969dda_r.jpg" style="width:500px;height=248px">
+
+
+
+launchd合并了inetd的函数，systemd也把他包含了进去。也许这里还不明显，到Rethinking PID 1 他的博客一看也有类似的话，原来他是想把systemd做成像mac 里面的launchd，用来管理linux的进程，怪不得一直消化别的daemon，如此一来往好处想，systemd做到合理优化调用进程，管理起来也许会轻松一些，如果不尽人意，到处报错，（而且linux下报错有时候不方便直接找到解决办法）你也只能徒呼奈何。
+
+<img src="http://pic2.zhimg.com/1960fbccad2937668efa9aaf219e9d15_r.jpg" style="width:500px;height=248px">
+
+
+================================================
+
+补充
+
+还有一点需要提出的就是，init程序的更换需要重写大量的脚本，且不谈多大工作量，由此可能引发很多问题，于是openrc 的保守用户（gentoo的有不少）不大喜欢systemd。
+
+另外对下图略感欣慰：
+
+<img src="http://pic4.zhimg.com/0ab29e569e284005b92b18d41b23d813_r.jpg" style="width:500px;height=248px">
+
+此外，还有
+
+
+
+- systemd's journal files are stored in a complicated binary format2, and must be queried using journalctl. This makes journal logs potentially corruptable。需要特殊的 journalctl来查看systemd的复杂二进制文件。
+- using systemd then more than doubles the attack surface.systemd使得系统的攻击表层增加了一倍还要多。
+- reboot to upgrade的问题一直深为诟病
+
+如此多的限制和改动，使得很多人对systemd十分反感。
+
+<br><br>
+
+如此扩张不知道是对自己systemd太过于自信还是想太多，也不太好直接判断，对于这些人在google+上面的各种嘲讽谩骂，甚至不需要去太深入研究，研究IT过深很容易产生思维偏执，加上浸淫网络多年，发文时不少感情占主导，越写越义愤填膺（实际上是偏离理性）。
+
+**===============================**
+
+**毕竟时间是最好的老师，也许真理的确掌握在少数人手中，经历过岁月的淘洗，王冠沉入水底，真理浮出水面。**

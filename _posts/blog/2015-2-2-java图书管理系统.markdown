@@ -1,0 +1,167 @@
+---
+layout: post
+title:  "java 图书管理系统 "
+date:   2015-2-2
+author: me
+categories: 
+- blog
+- java流
+thumb: thumb05.png
+---
+
+
+java 图书管理系统
+
+##主要实现的功能有：
+- 管理员登陆	LoginModiAction
+- 添加图书	BookAddAction
+- 修改图书	BookModiAction
+- 借阅图书	BorrowAction
+- 归还图书	GiveBackAction
+- 搜索图书	BookSearchAction
+- 预定图书	BookOrderAction
+- 读者添加	ReaderAddAction
+- 读者查询	ReaderScanAction
+
+<!--more-->
+
+
+    public static BookSearchAction BOOK_SEARCH;		    //图书搜索
+	public static GiveBackAction GIVE_BACK;				//图书归还
+	public static BorrowAction BORROW;					 //图书借阅
+	public static BookModiAction BOOK_MODIFY;		      //图书信息修改
+	public static BookAddAction BOOK_ADD;				  //图书信息添加
+	public static BookOrderAction BOOK_ORDER;              //图书预定
+	public static ExitAction EXIT;					     //系统退出
+	public static PlayAction PLAY;                     	//背景音乐
+	public static ReaderAddAction READER_ADD;	  		//读者信息添加
+	public static ReaderScanAction READER_SCAN;            //读者信息查询
+
+java使用的图形用户界面是用的swing包,JFrame是包括标题菜单图形用户界面的一个构件，
+##下面是main.java中的内容
+    
+ 	   public class Main {
+		public static void main(String[] args) throws InterruptedException {
+			final LoadingFrame iframe=new LoadingFrame();
+			final Library lframe=new Library();
+			lframe.setVisible(false);
+			iframe.setVisible(true);
+			Thread.sleep(2800);
+			iframe.setVisible(false);
+			lframe.setVisible(true);//设置主窗体可视
+			AWTUtilities.setWindowShape(lframe, new RoundRectangle2D.Double(
+					0.0D, 0.0D, lframe.getWidth(), lframe.getHeight(), 20.0D,
+					20.0D));  //绘制圆角
+			}
+		}
+
+
+AWTUtilities.setWindowShape是用了绘制窗口边框形状的函数，将Library创建的lframe窗口绘制出圆角利用RoundRectangle2D，20.0D是圆角的参数。
+LoadingFrame是一个android.gif动画，其实在编译后运行还是需要0.几秒的准备时间，于是干脆加上个启动画面，由于时间不长，也没有加入进度条，原理也是很简单，将LoadingFrame先将可视值设为True，然后sleep(2800)，可视化交替一下即可，将Library界面打开。
+
+##Library.java主窗口内容
+注意这个语句，在创建窗口时有两个选择，可以由JFrame和JComepetent来extends，但是经过仔细观察就会发现，前者在windows下的界面渲染更好。
+**后者总是出现JTextField编辑时，字符显示不全，是非常非常非常的不舒服！！！使用上也有极大的不便。**
+
+`public class Library extends JFrame`
+
+我的主窗口全部是添加的JButton  非常简洁。
+> 	JButton orderButton;
+	JButton bookBorrowButton;
+	JButton bookBackButton;
+	JButton bookModiButton;
+	JButton bookAddButton;
+	JButton bookSearchButton;
+	JButton ReaderScan;
+	JButton changePassButton;
+	JButton readerAddButton;
+	JButton showbutton;
+
+
+其中管理员有特殊的功能就是读者添加和读者信息浏览，还有登陆密码修改。
+点击扩展图标后会显示出这三个额外的功能图标，再次点击，消失，其实实现上非常的简单，我也没有使用过于复杂的函数，直接在showbutton上加了一个事件监听，内容如下，反复的置值，很多人没有猜到，个人认为是比较巧妙的。
+
+		showbutton.addActionListener(new ActionListener(){
+			@Override public void actionPerformed(ActionEvent e){
+				if(i) {
+					changePassButton.setVisible(true);
+					readerAddButton.setVisible(true);
+					ReaderScan.setVisible(true);
+					i=false;
+				}
+				else {
+					changePassButton.setVisible(false);
+					readerAddButton.setVisible(false);
+					ReaderScan.setVisible(false);
+					i=true;
+				}
+			}
+		}
+
+
+以图书搜索为例子，说一下实现的方法：
+
+    	//3=========图书搜索
+		bookSearchButton=new JButton(MenuActions.BOOK_SEARCH);
+		ImageIcon bookSearchIcon=CreatedIcon.add("bookSearch.png");
+		bookSearchButton.setIcon(bookSearchIcon);
+		bookSearchButton.setHideActionText(true);
+		bookSearchButton.setBounds(0,170,82,60);
+		bookSearchButton.setContentAreaFilled(false);   //设置为透明
+		bookSearchButton.setBorderPainted(false);        //去掉边框
+		this.getContentPane().add(bookSearchButton);
+		bookSearchButton.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseEntered(java.awt.event.MouseEvent evt) {
+				jButton3MouseEntered(evt);
+			}
+			public void mouseExited(java.awt.event.MouseEvent evt) {
+				jButton3MouseExited(evt);
+			}
+
+		});
+
+
+第一句创建JButton（点击则调用MenuActions中BOOK_SEARCH对应的函数），然后添加图标，其中CreatedIcon是在根目录下的java文件同名函数。
+
+
+> java中其实特别常用的这种函数声明，定义方式，在文件中把功能类似的一系列函数，或者需要使用的类，一起声明并且定义，这样使得整个程序的结构看起来十分的直接而且干净利落，c++的.h文件也应该这样使用，但是实际中很多项目做得看起来很乱，和java比起来感觉没有那么直接。
+> 另外就是这种使用方式和unix的**“单一卓越”**哲学，很类似。
+
+
+    bookSearchButton.setBounds(0,170,82,60);
+    bookSearchButton.setContentAreaFilled(false);   //设置为透明
+    bookSearchButton.setBorderPainted(false);        //去掉边框
+
+setBounds设置JButton的坐标和显示大小，我也是慢慢调试的，选出的最佳大小。JButton默认使用边框而且会有背景，swing的默认设置，下面两句是将这些东西去掉，图标看上去显得十分干净，好看。
+
+addMouseListener加入的两个事件监听，其实就是鼠标移入移出更改图标，有一个按钮选择效果，由于swing中没有发现类似的封装函数，只有这样实现：
+
+	private void jButton3MouseEntered(MouseEvent evt) {
+		ImageIcon button3=CreatedIcon.add("bookSearch2.png");
+		bookSearchButton.setIcon(button3);
+	}
+	private void jButton3MouseExited(java.awt.event.MouseEvent evt) {
+		ImageIcon button3=CreatedIcon.add("bookSearch.png");
+		bookSearchButton.setIcon(button3);
+	}
+
+
+##MenuActions.java的函数
+
+	//图书搜索
+	private static class BookSearchAction extends AbstractAction{
+		public void actionPerformed(ActionEvent e) {
+				final SearchBookFrame iframe=new SearchBookFrame();
+				Toolkit tk = iframe.getToolkit();
+				Dimension dm = tk.getScreenSize();
+				iframe.setLocation((int)((dm.getWidth()-500)/2+82),(int)((dm.getHeight()-680)/2));
+
+		}
+		BookSearchAction(){
+			super("图书搜索", null);
+			putValue(Action.LONG_DESCRIPTION, "搜索图书");
+			putValue(Action.SHORT_DESCRIPTION, "搜索图书");
+		}
+	}
+动作函数就是创建窗口，setLocation找到系统窗口大小，把新建窗口放置在窗口中央的位置。
+LONG_DESCRIPTION和SHORT_DESCRIPTION是鼠标移入和点击显示的文本内容。
