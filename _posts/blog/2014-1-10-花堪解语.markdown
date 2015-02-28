@@ -1,12 +1,12 @@
 ---
 layout: post
 title:  "花堪解语  "
-date:   2014-11-04 
+date:   2014-11-14 
 author: me
 categories: 
 - blog
 - 清新流
-thumb: thumb04.jpg
+thumb: thumb02.jpg
 ---
 <img src="http://liubai.qiniudn.com/花堪解语.jpg" style="width:500px;height=248px">
 

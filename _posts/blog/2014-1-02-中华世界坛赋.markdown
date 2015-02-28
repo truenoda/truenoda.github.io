@@ -1,12 +1,12 @@
 ---
 layout: post
 title:  "中华世纪坛赋 魏明伦  "
-date:   2014-11-04 
+date:   2014-11-09
 author: me
 categories: 
 - blog
 - 散文流
-thumb: thumb03.jpg
+thumb: thumb01.jpg
 ---
 
 <img src="http://liubai.qiniudn.com/fuwen.jpg" style="width:500px;height=248px">

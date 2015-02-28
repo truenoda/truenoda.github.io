@@ -1,19 +1,19 @@
 ---
 layout: post
 title:  "写给自己的歌 李宗盛 "
-date:   2014-11-04 
+date:   2014-11-05 
 author: me
 categories: 
 - blog
 - 清新流
-thumb: thumb04.jpg
+thumb: thumb02.jpg
 ---
 
-<img src="http://liubai.qiniudn.com/dd.jpg" style="width:500px;height=248px">
+<img src="http://liubai.info/assets/img/work/4.jpg" style="width:500px;height=248px">
 
-**想得却不可得 你奈人生何**<br>
-**该捨的捨不得 只顾着跟往事瞎扯**<br>
-**等你发现时间是贼了 它早已偷光你的选择**<br><br>
+想得却不可得 你奈人生何<br>
+该捨的捨不得 只顾着跟往事瞎扯<br>
+等你发现时间是贼了 它早已偷光你的选择<br><br>
 <!--more-->
 
 

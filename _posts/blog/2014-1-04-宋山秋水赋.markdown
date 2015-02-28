@@ -1,13 +1,12 @@
 ---
 layout: post
 title:  "宋山秋水赋 原创   "
-date:   2014-11-04 
+date:   2011-1-1
 author: me
 categories: 
 - blog
 - 散文流
-- 清新流
-thumb: thumb03.jpg
+thumb: thumb01.jpg
 ---
 
 宋山秋水赋

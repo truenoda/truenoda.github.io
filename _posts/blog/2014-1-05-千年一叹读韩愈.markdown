@@ -1,12 +1,12 @@
 ---
 layout: post
 title:  "千年一叹读韩愈  丛维熙"
-date:   2014-11-04 
+date:   2014-11-06
 author: me
 categories: 
 - blog
 - 散文流
-thumb: thumb03.jpg
+thumb: thumb01.jpg
 ---
 
 <img src="http://liubai.qiniudn.com/hanyu.jpg" style="width:550px;height=233px">

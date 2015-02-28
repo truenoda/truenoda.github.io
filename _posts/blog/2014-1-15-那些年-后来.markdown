@@ -1,12 +1,12 @@
 ---
 layout: post
 title:  "那些年-后来 "
-date:   2014-11-04 
+date:   2014-11-24 
 author: me
 categories: 
 - blog
 - 清新流
-thumb: thumb04.jpg
+thumb: thumb02.jpg
 ---
 
 
