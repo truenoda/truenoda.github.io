@@ -329,9 +329,6 @@ padding属性的书写格式总共有以下几种：
 
 padding是指层的内部，而margin指层外部。
 
-<img src="http://liubai.qiniudn.com/margin和padding的区别.png" style="width:500px;height=248px">
-
-<img src="http://liubai.qiniudn.com/margin1.png" style="width:500px;height=248px">
 
 
 ## gmail邮箱发送邮件按钮 ##

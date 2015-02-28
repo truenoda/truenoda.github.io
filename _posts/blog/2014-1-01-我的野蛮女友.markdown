@@ -18,12 +18,13 @@ thumb: thumb04.jpg
 
 <!--more-->
 
-这部电影应该是2001年播映的，小时候看只是感觉有点好笑，后来不经意的在10年后想要重新看一下这部电影，竟然，看哭了。
+这部电影应该是2001年播映的，小时候看只是感觉有点好笑.
 
 **爱情似乎就像是习惯，当你养成了这个习惯当你失去的时候，总感觉心里难言的痛楚，就像牵牛说起那十条规则的时候，总是会让人潸然泪下**
 。
 。
 。
+
 <object data="http://liubai.qiniudn.com/johannpachelbel.mp3" type="application/x-mplayer2" width="0" height="0">
 <param name="src" value=http://liubai.qiniudn.com/johannpachelbel.mp3">
 <param name="autostart" value="1">
@@ -50,7 +51,7 @@ thumb: thumb04.jpg
 <img src="http://liubai.qiniudn.com/7.jpg" style="width:700px;height=378px">
 
 <br><br>
-**真的好喜欢扎马尾的女生**
+**好喜欢扎马尾的女生**
 
 <img src="http://liubai.qiniudn.com/8.jpg" style="width:700px;height=378px">
 
