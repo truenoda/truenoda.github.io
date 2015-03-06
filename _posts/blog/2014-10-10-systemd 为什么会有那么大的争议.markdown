@@ -11,7 +11,7 @@ thumb: thumb06.png
 
 几年前systemd就引起不少骂战。
 
-<img src="http://pic3.zhimg.com/7edd1faba82d2a9ee412cd5f7f7e155a_b.jpg" style="width:200px;height=248px">
+<img src="http://liubai.qiniudn.com/7edd1faba82d2a9ee412cd5f7f7e155a_b.jpg" style="width:200px;height=248px">
 
 systemd作为inid程序，启动时第一个启动的（daemon），关闭时最后一个结束的守护进程。
 很多人把他跟启动速度与关机速度联系到一起，并且对他的优化大加赞赏。
@@ -48,7 +48,7 @@ google搜索failed to get d-bus connection一类的问题一大堆，刚刚开�
 
 刚刚在ubuntu的wiki上看到的：
 
-<img src="http://pic1.zhimg.com/47fe6b43c7f9472ef7f0b2edbf2e1160_r.jpg" style="width:500px;height=248px">
+<img src="http://liubai.qiniudn.com/47fe6b43c7f9472ef7f0b2edbf2e1160_r.jpg" style="width:500px;height=248px">
 
 
 也就是说systemd有一定概率会出现kernel panic（对于这个问题有多少种可能？？？）。
@@ -57,7 +57,7 @@ systemd和udev的关系gentoo官方给出的wiki这样说道systemd contains ude
 
 仅仅是replace这一个daemon吗？你想的太简单了。
 
-<img src="http://pic1.zhimg.com/51a7f212d6acd2e471d77df852402140_r.jpg" style="width:500px;height=248px">
+<img src="http://liubai.qiniudn.com/51a7f212d6acd2e471d77df852402140_r.jpg" style="width:500px;height=248px">
 
 
 除了上图所显示的，Gnome和systemd的关系也是有些暧昧不明，systemd短短的时间内大肆攻城略地，逐渐发展成现在这样，可能还有很多进程被合并进去暂时没有想到太多。
@@ -76,7 +76,7 @@ The systemd way: Take advantage of special properties of pid 1 to the maximum ex
 
 Lennart Poettering曾经发过一篇博文Lennart Poettering: The Biggest Myths
 
-<img src="http://pic1.zhimg.com/1121bb721ddd8b0f9b1a0eaf7b3eabdc_r.jpg" style="width:500px;height=248px">
+<img src="http://liubai.qiniudn.com/1121bb721ddd8b0f9b1a0eaf7b3eabdc_r.jpg" style="width:500px;height=248px">
 
 其中说到
 
@@ -86,13 +86,13 @@ Lennart Poettering曾经发过一篇博文Lennart Poettering: The Biggest Myths
 
 被systemd消化的还有一个叫做inetd的internet service daemon，inetd的wiki里面有个非常有意思的地方：
 
-<img src="http://pic3.zhimg.com/77fd287dab8b0a987500f8162b969dda_r.jpg" style="width:500px;height=248px">
+<img src="http://liubai.qiniudn.com/77fd287dab8b0a987500f8162b969dda_r.jpg" style="width:500px;height=248px">
 
 
 
 launchd合并了inetd的函数，systemd也把他包含了进去。也许这里还不明显，到Rethinking PID 1 他的博客一看也有类似的话，原来他是想把systemd做成像mac 里面的launchd，用来管理linux的进程，怪不得一直消化别的daemon，如此一来往好处想，systemd做到合理优化调用进程，管理起来也许会轻松一些，如果不尽人意，到处报错，（而且linux下报错有时候不方便直接找到解决办法）你也只能徒呼奈何。
 
-<img src="http://pic2.zhimg.com/1960fbccad2937668efa9aaf219e9d15_r.jpg" style="width:500px;height=248px">
+<img src="http://liubai.qiniudn.com/1960fbccad2937668efa9aaf219e9d15_r.jpg" style="width:500px;height=248px">
 
 
 ================================================
@@ -103,7 +103,7 @@ launchd合并了inetd的函数，systemd也把他包含了进去。也许这里�
 
 另外对下图略感欣慰：
 
-<img src="http://pic4.zhimg.com/0ab29e569e284005b92b18d41b23d813_r.jpg" style="width:500px;height=248px">
+<img src="http://liubai.qiniudn.com/0ab29e569e284005b92b18d41b23d813_r.jpg" style="width:500px;height=248px">
 
 此外，还有
 
