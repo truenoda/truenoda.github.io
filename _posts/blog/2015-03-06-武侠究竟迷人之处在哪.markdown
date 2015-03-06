@@ -5,8 +5,8 @@ date:   2015-03-06
 author: me
 categories: 
 - blog
-- 武侠流
-thumb: thumb07.png
+- 清新流
+thumb: thumb04.png
 ---
 
 **读金庸的小说，让人不禁产生对江湖的向往。**
