@@ -1,7 +1,7 @@
  ---
 layout: post
 title:  "武侠究竟迷人之处在哪"
-date:   2015-03-06
+date:   2015-3-6
 author: me
 categories: 
 - blog
