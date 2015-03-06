@@ -1,8 +1,8 @@
-Solid. A Bootstrap theme for Jekyll.
+流白  theme for Jekyll.
 ============
-![Screenshot](https://st4ple.github.io/solid-jekyll/assets/img/browser.png)
-
-This is a [Jekyll](http://jekyllrb.com/) port of the [Solid theme](http://www.blacktie.co/2014/05/solid-multipurpose-theme/) by [blacktie.co](http://www.blacktie.co/). Visit the [live demo](https://st4ple.github.io/solid-jekyll/) for a preview. 
+![Screenshot](http://liubai.qiniudn.com/jietu2.jpg)
+![Screenshot](http://liubai.qiniudn.com/client.jpg)
+Visit the [live demo](https://truenoda.github.io) for a preview. 
 
 ##Usage
 This theme can be customized, built and published straight from GitHub, thanks to [GitHub Pages](https://pages.github.com/). A local installation of Jekyll isn't even necessary!
@@ -36,42 +36,7 @@ This text will appear in the excerpt "post preview" on the Blog page that lists 
 <!--more-->
 This text will not be shown in the excerpt because it is after the excerpt separator.
 ```
-#####Project post
-Create a Project post to go in your Portfolio by creating a file called `yyyy-mm-dd-name-of-the-project.markdown` in the `/_posts/project/` directory with the following template:
-```markdown
----
-layout: project       #important: don't change this
-title:  "Name of the project"
-date: yyyy-mm-dd hh:mm:ss
-author: Name
-categories:
-- project             #important: leave this here
-img: portfolio_10.jpg #place image (600x450) with this name in /assets/img/project/
-thumb: thumb02.jpg
-carousel:
-- single01.jpg        #place image (1280x600) with this name in /assets/img/project/carousel/
-- single02.jpg  
-- ...
-client: Company XY
-website: http://www.internet.com
----
-####This is a heading
-This is a regular paragraph. Write as much as you like.
-```
-#####Question entry
-Create a Question entry (that is listed in the Frequently Asked section on the Home page) in this directory by creating a file called `yyyy-mm-dd-do-i-have-a-question.markdown` in the `/_posts/project/` directory with the following template:
-```markdown
----
-layout: question
-title:  "Do I have a question?"
-date: yyyy-mm-dd hh:mm:ss
-author: First Last
-categories:
-- question            #important: leave this here
----
-####Can I use this theme for my website?
-Of course you can!
-```
+
 ####Publish
 To publish with [GitHub Pages](https://pages.github.com/), simply create a branch called `gh-pages`in your repository. GitHub will build your site automatically and publish it at `http://yourusername.github.io/repositoryname/`.  
 If there are problems with loading assets like CSS files and images, make sure that the `baseurl` in the `_config.yml`is set correctly (it should say `/repositoryname`).

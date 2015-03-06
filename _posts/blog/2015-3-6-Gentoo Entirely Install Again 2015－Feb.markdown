@@ -310,7 +310,6 @@ vlc安装 USE="X alsa avcodec avformat dbus dvbpsi encode ffmpeg flac gcrypt lib
 2.安装并且在bashrc和xinitrc加入 export 语句即可
 
 
- =============2015-3-3 第二次更新===============
  
 
 
