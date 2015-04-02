@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "雾霾蒙蔽的青天 "
+date:   2015-3-5
+author: me
+categories: 
+- blog
+- NBA流
+thumb: thumb07.png
+---
+
+<img src="http://liubai.qiniudn.com/spur1.jpg" style="width:500px;height=248px">
+
+当你战胜了时间，你就征服了世界。
+<!--more-->
