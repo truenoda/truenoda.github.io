@@ -6,7 +6,8 @@ author: me
 categories: 
 - blog
 - 网站
-thumb: thumb03.png
+- Linux流
+thumb: thumb05.png
 ---
 
 安装git bash什么的教程不在此说明了。

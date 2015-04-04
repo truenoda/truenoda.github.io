@@ -6,7 +6,7 @@ author: me
 categories: 
 - blog
 - java流
-thumb: thumb05.png
+thumb: thumb08.png
 ---
 
 

@@ -6,7 +6,7 @@ author: me
 categories: 
 - blog
 - 散文流
-thumb: thumb01.png
+thumb: thumb02.png
 ---
 
 <img src="http://liubai.qiniudn.com/fuwen.jpg" style="width:500px;height=248px">

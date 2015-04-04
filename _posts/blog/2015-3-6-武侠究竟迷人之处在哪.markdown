@@ -6,7 +6,7 @@ author: me
 categories: 
 - blog
 - 武侠流
-thumb: thumb07.png
+thumb: thumb09.png
 ---
 
 **读金庸的小说，让人不禁产生对江湖的向往。**

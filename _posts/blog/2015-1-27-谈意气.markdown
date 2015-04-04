@@ -6,7 +6,7 @@ author: 2006湖南考生
 categories: 
 - blog
 - 散文流
-thumb: thumb01.png
+thumb: thumb02.png
 ---
 
 谈 意 气 

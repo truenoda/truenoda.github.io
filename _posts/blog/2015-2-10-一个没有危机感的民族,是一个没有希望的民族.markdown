@@ -6,7 +6,7 @@ author: 郎咸平
 categories: 
 - blog
 - 时事流
-thumb: thumb04.png
+thumb: thumb01.png
 ---	
 
 	一个没有危机感的民族,是一个没有希望的民族。

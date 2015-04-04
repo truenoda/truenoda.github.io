@@ -6,7 +6,7 @@ author: me
 categories: 
 - blog
 - 网站
-thumb: thumb03.png
+thumb: thumb05.png
 ---
 
 几个功能的实现 google map bgmusic 缓慢滚动页面

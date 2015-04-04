@@ -6,7 +6,7 @@ author: me
 categories: 
 - blog
 - 散文流
-thumb: thumb01.png
+thumb: thumb02.png
 ---
 
 <img src="http://liubai.qiniudn.com/libai.jpg" style="width:300px;height=333px">
