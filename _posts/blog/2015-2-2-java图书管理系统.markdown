@@ -12,6 +12,7 @@ thumb: thumb05.png
 
 java 图书管理系统
 
+<img src="http://liubai.qiniudn.com/Unnamed QQ Screenshot20141126204851.png" style="width:500px;height=248px">
 ##主要实现的功能有：
 - 管理员登陆	LoginModiAction
 - 添加图书	BookAddAction
