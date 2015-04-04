@@ -39,7 +39,10 @@ java 图书管理系统
 	public static ReaderAddAction READER_ADD;	  		//读者信息添加
 	public static ReaderScanAction READER_SCAN;            //读者信息查询
 
-java使用的图形用户界面是用的swing包,JFrame是包括标题菜单图形用户界面的一个构件，
+java使用的图形用户界面是用的swing包,JFrame是包括标题菜单图形用户界面的一个构件
+
+<img src="http://liubai.qiniudn.com/Unnamed QQ Screenshot20141126205459.png" style="width:500px;height=248px">
+
 ##下面是main.java中的内容
     
  	   public class Main {
