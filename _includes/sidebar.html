@@ -1,15 +1,10 @@
 <div class="col-lg-4">
-    <h4>文字目录</h4>
-
-    {% for category in site.categories %}{% unless category.first == "blog" or category.first == "project" or category.first == "question" %}
-        <p>
-            <a href="{{ '/category/#'  | prepend: site.baseurl  }}{{ category | first }}"><i class="fa fa-angle-right"></i> {{ category | first | capitalize }}</a>
-            <span class="badge badge-theme pull-right">{{ category | last | size }}</span>
-        </p>
-    {% endunless %}{% endfor %}
+    <div class="spacing"></div>
+    <div class="spacing"></div>
+    <div class="spacing"></div>
+    <div class="spacing"></div>
     <div class="spacing"></div>
     <h4>最近文章</h4>
-
         <ul class="popular-posts">
             {% for post in site.categories['blog'] limit:4 %} 
                 <li>
